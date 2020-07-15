@@ -9,4 +9,4 @@ child_type: docs
 
 # Linux Command Line Basics
 
-Delve deeper into more **complex** topics
+All you have is a command line so knowing basic commands is essential.
