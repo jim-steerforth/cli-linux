@@ -1,5 +1,5 @@
 ---
-title: 04.Termux
+title: Termux
 media_order: Termux0.jpg
 published: true
 ---
