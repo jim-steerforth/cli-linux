@@ -1,6 +1,7 @@
 ---
 title: 'Getting a barebones cloud server'
 media_order: 'vds1.jpg,vds2.jpg,vds3.jpg,vds4.jpg'
+published: true
 taxonomy:
     category:
         - docs
