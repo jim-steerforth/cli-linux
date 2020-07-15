@@ -10,11 +10,11 @@ There are several ways to install local Linux. In order of ease of install:
 
 ### Termux
 
-This is a Android terminal emulation with an extensive Linux package collection.  Useful for connecting to yoiur cloud server anytime.
+This is a Android terminal emulation with an extensive Linux package collection.  Useful for connecting to yoiur cloud server anytime. Installation is covered here.
 
 ### Windows Subsystem for Linux
 
-Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. In simpler language it alllows you to run Linux in a wimdow under Windows 10.
+Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. In simpler language it alllows you to run Linux in a window under Windows 10. Installation is covered here.
 
 ### Linux Desktop
 
