@@ -7,8 +7,6 @@ title: 04.Termux
 <p>
     Termux can be installed like any other Android app by using the Playstore. The webpage for Termux is <a href="https://termux.com">https://termux.com</a></p>
 
-<p dir="ltr" style="text-align: left;"><img src="https://lh3.googleusercontent.com/m3oqSZCwmitiZ-Im-CQu_rqT5eLHilOp5IudBynv3COJUumFzuQaP2dgTDxRL_03f4x2=s360" alt="Termux" class="img-responsive atto_image_button_text-bottom" width="90" height="90"></p>
-<p dir="ltr" style="text-align: left;">
 
 </p>
 <p>When you open Termux, you have a command prompt shown by the dollar sign and the bottom of the screen are some often used keys. ESC, TAB (shown by left and right arrows), CTRL, ALT, - (dash key) and up and down arrows.</p>
