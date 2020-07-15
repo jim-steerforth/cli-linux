@@ -35,4 +35,4 @@ We start with two sub-directories play and play2 in the home directory each cont
 <div style="background-color:black;color:white;padding:20px;"> man rm</div><br> Scroll up and down with the arrow keys and the letter <kbd>q</kbd> exits.
 <p></p>
 
-![](man.jpg)
+![man](man.jpg)
