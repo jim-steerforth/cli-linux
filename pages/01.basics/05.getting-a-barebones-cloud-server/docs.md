@@ -1,6 +1,6 @@
 ---
 title: 'Getting a barebones cloud server'
-media_order: 'vds1.jpg,vds2.jpg'
+media_order: 'vds1.jpg,vds2.jpg,vds3.jpg,vds4.jpg'
 taxonomy:
     category:
         - docs
@@ -10,3 +10,12 @@ There are many places to get a barebones cloud server. I am going to use hostvds
 ![](vds1.jpg)
 This is the control panel for hostvps. We are going to add a new instance. This will create a new server.
 ![](vds2.jpg)
+Give our new server a basic name, select location (Moscow my only choice), choose Ubuntu and in the dropdown the latest version (18.04)
+![](vds3.jpg)
+Select the lowest price option and deploy.
+![](vds4.jpg)
+We now have a server and we can connect to it using the ip address.
+There should also be an email sent to your address with login to your server and password.
+
+
+
