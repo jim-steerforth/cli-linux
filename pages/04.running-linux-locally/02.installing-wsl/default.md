@@ -12,7 +12,7 @@ wmic os get BuildNumber
 </kbd></p>
 
 
-I get BuildNumber 17134 so I am good to go. Instructions from Microsoft are here.
+I get BuildNumber 17134 so I am good to go. [Instructions from Microsoft are here.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 
 <p>First you must open Windows PowerShell (from the start menu) as Administrator and run <br><b> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</b><br> Then restart your computer when prompted.</p>
