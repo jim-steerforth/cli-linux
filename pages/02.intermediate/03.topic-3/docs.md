@@ -35,10 +35,10 @@ rmdir: failed to remove 'play2': Directory not empty<br></div>
 
 
 <p>How to remember all these codes? You get help by using the
- <div style="background-color:black;color:white;padding:20px;">man</div> command.<br>
+ <b>man</b> command.<br>
 </p>
 
-<p><div style="background-color:black;color:white;padding:20px;"> man rm</div><br>
- Scroll up and down with the arrow keys and the letter <kbd>q</kbd> exits.</p>
+<p><b> man rm</b><br>
+ Scroll up and down with the arrow keys and the letter <b>q</b> exits.</p>
  
  ![](man.jpg)
