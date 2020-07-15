@@ -1,7 +1,8 @@
 ---
-title: Topic 2
+title: 'touch cd mv cp'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Lorem *markdownum saxum et* telum revellere in victus vultus cogamque ut quoque
