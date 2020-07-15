@@ -1,5 +1,6 @@
 ---
 title: 'Installing WSL'
+published: true
 ---
 
 <p>Windows 10 has a Linux subsystem. If you are running Windows build 16215 or later, here is how you can access this windows feature. You can check your Windows build number by opening a command prompt (Right click on Start menu &gt; Run &gt; Type <kbd>cmd</kbd>)
