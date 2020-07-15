@@ -1,6 +1,7 @@
 ---
 title: 04.Termux
 media_order: Termux0.jpg
+published: true
 ---
 
 <p>Termux is an open source Linux emulator running on Android. It allows you to become familiar with Linux commands by practising them on your phone from simple directory commands to updating your system and installing new programs.</p>
