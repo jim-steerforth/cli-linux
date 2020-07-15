@@ -1,6 +1,6 @@
 ---
 title: 'rm rmdir man'
-media_order: man.jpg
+media_order: 'man.jpg,man.png'
 taxonomy:
     category:
         - docs
@@ -36,3 +36,4 @@ We start with two sub-directories play and play2 in the home directory each cont
 <p></p>
 
 ![](man.jpg)
+![](man.png)
