@@ -7,6 +7,6 @@ child_type: docs
 
 ### Chapter 2
 
-# Intermediate
+# Linix Command Line Basics
 
 Delve deeper into more **complex** topics
