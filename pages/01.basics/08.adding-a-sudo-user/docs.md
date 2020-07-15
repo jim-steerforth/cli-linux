@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-<p>We are adding a new user called jimmy. Our new server has already given us a sudo user but some Linux distributions may log you in as root. This command assumes you hvee logged in as ubuntu, a sudo user. <br></p>
+<p>We are adding a new user called jimmy. Our new server has already given us a sudo user but some Linux distributions may log you in as root. This command assumes you have logged in as ubuntu, a sudo user. <br></p>
 <div style="background-color:black;color:white;padding:20px;">
     sudo adduser jimmy
 
