@@ -1,5 +1,6 @@
 ---
 title: 'rm rmdir man'
+media_order: man.jpg
 taxonomy:
     category:
         - docs
@@ -34,4 +35,4 @@ We start with two sub-directories play and play2 in the home directory each cont
 <div style="background-color:black;color:white;padding:20px;"> man rm</div><br> Scroll up and down with the arrow keys and the letter <kbd>q</kbd> exits.
 <p></p>
 
-<div><img src="https://wonk.xyz/moodle/draftfile.php/5/user/draft/672123171/man.jpg" alt="Man" class="img-responsive atto_image_button_text-bottom" width="555" height="322"><br></div>
+![](man.jpg)
