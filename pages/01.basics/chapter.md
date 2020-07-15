@@ -9,6 +9,8 @@ child_type: docs
 
 #  Best way to install Moodle
 
+
+
 <p>Lets look at the alternatives first.</p>
 <p><b>Moodle Cloud</b><br></p>
 <p><a href="https://moodlecloud.com/">MoodleCloud</a> is "Moodle hosting from the people that make Moodle" for "Educators, trainers or anyone who needs an online learning environment to teach a class or facilitate learning in any situation."</p>
