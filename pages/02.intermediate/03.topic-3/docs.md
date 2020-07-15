@@ -40,3 +40,5 @@ rmdir: failed to remove 'play2': Directory not empty<br></div>
 
 <p><div style="background-color:black;color:white;padding:20px;"> man rm</div><br>
  Scroll up and down with the arrow keys and the letter <kbd>q</kbd> exits.</p>
+ 
+ ![](man.jpg)
