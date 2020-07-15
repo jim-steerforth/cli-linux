@@ -7,7 +7,7 @@ child_type: docs
 
 ### Chapter 1
 
-# What is the best way to install Moodle?
+#  Best way to install Moodle
 
 <p>Lets look at the alternatives first.</p>
 <p><b>Moodle Cloud</b><br></p>
