@@ -1,5 +1,5 @@
 ---
-title: Termux
+title: 'Termux on Android'
 media_order: Termux0.jpg
 published: true
 ---
