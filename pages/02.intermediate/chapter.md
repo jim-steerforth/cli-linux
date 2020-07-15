@@ -1,5 +1,5 @@
 ---
-title: Intermediate
+title: 'Linux Command Line Basics'
 taxonomy:
     category: docs
 child_type: docs
