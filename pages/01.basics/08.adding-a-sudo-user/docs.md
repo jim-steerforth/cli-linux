@@ -12,7 +12,7 @@ taxonomy:
     <p>Set password prompts:<br> Enter new UNIX password:<br> Retype new UNIX password:<br> passwd: password updated successfully<br></p>
 </div>
 <p>
-    Password is entered twice. Make sure it is strong.</p>
+    Password is entered twice. Make sure it is strong. The other details can be folled in or skiped.</p>
 <p></p>
 <div style="background-color:black;color:white;padding:20px;">
 
