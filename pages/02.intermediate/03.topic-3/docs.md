@@ -9,7 +9,7 @@ taxonomy:
 We start with two sub-directories play and play2 in the home directory each containing one text file. How can we get rid of them?
 <div style="background-color:black;color:white;padding:20px;">$ cd ~<br> $ rm play/file2.txt<br> $ rmdir play<br> $ rmdir play2<br> rmdir: failed to remove 'play2': Directory not empty<br></div>
 
-
+![](man.jpg)
 <p><br></p>
 <p>From the home directory we can delete the file in the sub-directory and then remove the empty directory. The directory play2 is not empty and can't be removed with rmdir.</p>
 <p>
@@ -35,5 +35,4 @@ We start with two sub-directories play and play2 in the home directory each cont
 <div style="background-color:black;color:white;padding:20px;"> man rm</div><br> Scroll up and down with the arrow keys and the letter <kbd>q</kbd> exits.
 <p></p>
 
-![](man.jpg)
-![](man.png)
+
