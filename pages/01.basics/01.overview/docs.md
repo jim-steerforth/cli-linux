@@ -24,7 +24,3 @@ taxonomy:
 <p>A&nbsp; cloud server is about the same price as as shared hosting fore much better performance&nbsp; You have complete control over your machine and it is available on the web. It can be upgraded easily and as a standard install, help is available, As
     ir runs completely independently from your home machine,&nbsp; there is no chance you can lose data or change settings.<br></p>
 <p>On the down side - you have to learn to run a server. If that doesn't scare you, this course is for you. It assumes you have never seen Linux before and so will go through the complete install of a secured LAMP stack.<br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
