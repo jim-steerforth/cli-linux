@@ -1,5 +1,6 @@
 ---
 title: 04.Termux
+media_order: Termux0.jpg
 ---
 
 <p>Termux is an open source Linux emulator running on Android. It allows you to become familiar with Linux commands by practising them on your phone from simple directory commands to updating your system and installing new programs.</p>
@@ -10,8 +11,9 @@ title: 04.Termux
 
 </p>
 <p>When you open Termux, you have a command prompt shown by the dollar sign and the bottom of the screen are some often used keys. ESC, TAB (shown by left and right arrows), CTRL, ALT, - (dash key) and up and down arrows.</p>
-<p><img src="https://wonk.xyz/moodle/draftfile.php/5/user/draft/325592916/termux0a.png" alt="Termux" class="img-responsive atto_image_button_text-bottom" width="540" height="1170"><br></p>
 
+
+![](Termux0.jpg)
 
 <p>The first command is<br>
 
