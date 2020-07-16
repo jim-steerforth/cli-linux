@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-    <p>To install new programs we use a package manager called apt</p>
+To install new programs we use a package manager called apt
 <p style="font-family:Courier; color:white; background-color:black;">
 
 apt update
