@@ -49,7 +49,7 @@ extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','D
 
 <p>
     Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
-<p>
+
     ![](termux4a.png)
     <p style="font-family:Courier; color:white; background-color:black;">
 cat ~/.termux/termux.properties will show you the contents of the file.</p>
