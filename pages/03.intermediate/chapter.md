@@ -5,7 +5,7 @@ taxonomy:
 child_type: docs
 ---
 
-### Chapter 2
+### Chapter 3
 
 # Linux Command Line Basics
 
