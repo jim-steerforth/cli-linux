@@ -25,7 +25,9 @@ cd v[TAB]
 
 <p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
 <p>This next step uses what we have learned.</p>
+
 ![](termux4a.png)
+
 
 <p><p style="font-family:Courier; color:white; background-color:black;">
 mkdir ~/.termux
