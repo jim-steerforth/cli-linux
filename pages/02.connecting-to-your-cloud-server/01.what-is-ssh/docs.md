@@ -27,3 +27,7 @@ For dual boot,you first partition your disk in Windows so the partition is empty
 If you have an old machine gathering dust, a full Linux install is easy. That can a useful development environment and test bed.
 
 Suitable distributions are Ubuntu and Linux Mint.
+
+### Windows Power Shell
+[Instructions for using Windows PowerShell are here.](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/ssh-remoting-in-powershell-core?view=powershell-7)
+
