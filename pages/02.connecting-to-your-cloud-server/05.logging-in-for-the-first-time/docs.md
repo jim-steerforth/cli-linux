@@ -30,4 +30,4 @@ Go to your welcome email and find your username and password. <br>
 </div>
 
 <p>.</p>
-<p>You are now on the command line of your new Linux machine. Next step is to create a sudo user and if  ypu haven't used Linux before, learn the basic commands.</p>
+<p>You are now on the command line of your new Linux machine. Next step is to create a sudo user and if  you haven't used Linux before, learn the basic commands.</p>
