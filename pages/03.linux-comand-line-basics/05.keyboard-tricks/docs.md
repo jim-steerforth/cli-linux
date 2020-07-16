@@ -14,7 +14,6 @@ cd ~<br>
 mkdir verylongandhardtoremberdirectoryname1</p>
 
 
-
 <p>Now push the arrow key for UP. The last command is shown.Backspace the last character of 1 and replace it with a 2.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
