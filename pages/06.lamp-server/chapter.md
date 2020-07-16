@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-### 4
+### Chapter  4
 
-# Chapter Install Lamp
+# Install Lamp
 
