@@ -1,5 +1,5 @@
 ---
-title: 'Installing Moodle'
+title: 'Best way'
 taxonomy:
     category: docs
 child_type: docs
