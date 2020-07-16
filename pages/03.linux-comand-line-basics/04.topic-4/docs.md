@@ -6,6 +6,7 @@ taxonomy:
         - docs
 ---
 
+![](termux4a.png)
 <b>Auto complete</b>
 <p>This is standard on all Linux and a great time saver. <br></p>
 
@@ -24,9 +25,10 @@ cd v[TAB]
 <p>The shell autocompletes the file up to the point where the two files differ.</p>
 
 <p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
+
 <p>This next step uses what we have learned.</p>
 
-![](termux4a.png)
+
 
 
 <p><p style="font-family:Courier; color:white; background-color:black;">
@@ -54,3 +56,5 @@ extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','D
 cat ~/.termux/termux.properties</p> will show you the contents of the file.</p>
 <p><p style="font-family:Courier; color:white; background-color:black;">
 termux-reload-settings</p> This final step will set up your Termux to have extra keys for moving left and right.</p>
+
+![](termux4a.png)
