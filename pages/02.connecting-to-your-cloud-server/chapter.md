@@ -4,8 +4,8 @@ taxonomy:
     category: docs
 ---
 
-### Chapter Number
+### Chapter 2
 
 # Connect with SSH
 
-This chapter shows you how to connecgt with SSH.
+This chapter shows you how to connect to your remote server with SSH.
