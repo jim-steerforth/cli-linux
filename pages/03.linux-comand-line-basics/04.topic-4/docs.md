@@ -44,16 +44,16 @@ nano ~/.termux/termux.properties</p>This opens up a nano editing session. Copy t
 
 <p style="font-family:Courier; color:white; background-color:black;">
 extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
-
 </p>
 ![](termux4a.png)
 
 <p>
     Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
-
 <p>
+    ![](termux4a.png)
     <p style="font-family:Courier; color:white; background-color:black;">
 cat ~/.termux/termux.properties</p> will show you the contents of the file.</p>
+![](termux4a.png)
 <p style="font-family:Courier; color:white; background-color:black;">
 termux-reload-settings</p> This final step will set up your Termux to have extra keys for moving left and right.</p>
 
