@@ -20,9 +20,7 @@ published: true
 <p>The first command is<br>
 
 </p>
-<div style="background-color:black;color:white;padding:20px;">
-    $ exit<kbd></kbd>
-</div>
+<div style="background-color:black;color:white;padding:20px;">$ exit</div>
 <p></p>
 
 <p>This will log you out of the system. In this command I am showing the prompt as $. Type exit and press the enter key and Termux closes.</p>
