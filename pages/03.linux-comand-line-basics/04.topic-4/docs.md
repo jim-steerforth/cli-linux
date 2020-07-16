@@ -8,20 +8,17 @@ taxonomy:
 
 <b>Auto complete</b>
 <p>This is standard on all Linux and a great time saver. <br></p>
-<p>
-    <p style="font-family:Courier; color:white; background-color:black;">
-cd ~<br>
-
-mkdir verylongandhardtoremberdirectoryname1
-</p>
-</p>
-<p>Now push the arrow key for UP. The last command is shown.Backspace the last character of 1 and replace it with a 2.</p>
-    <p style="font-family:Courier; color:white; background-color:black;">cd ~<br>
-mkdir verylongandhardtoremberdirectoryname2
-</p>
-
 
 <p style="font-family:Courier; color:white; background-color:black;">
+cd ~<br>
+mkdir verylongandhardtoremberdirectoryname1</p>
+
+
+<p>Now push the arrow key for UP. The last command is shown.Backspace the last character of 1 and replace it with a 2.</p>
+
+<p style="font-family:Courier; color:white; background-color:black;">
+cd ~<br>
+mkdir verylongandhardtoremberdirectoryname2
 cd v[TAB] 
 </p> Here tab is shown by the arrow keys.
 <p>The shell autocompletes the file up to the point where the two files differ.</p>
