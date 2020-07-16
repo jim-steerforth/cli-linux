@@ -18,7 +18,7 @@ mkdir verylongandhardtoremberdirectoryname1</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 cd ~<br>
-mkdir verylongandhardtoremberdirectoryname2
+mkdir verylongandhardtoremberdirectoryname2<br>
 cd v[TAB] 
 </p> Here tab is shown by the arrow keys.
 <p>The shell autocompletes the file up to the point where the two files differ.</p>
