@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-![](termux4a.png)
+
 <b>Auto complete</b>
 <p>This is standard on all Linux and a great time saver. <br></p>
 
@@ -14,21 +14,22 @@ taxonomy:
 cd ~<br>
 mkdir verylongandhardtoremberdirectoryname1</p>
 
-
+![](termux4a.png)
 <p>Now push the arrow key for UP. The last command is shown.Backspace the last character of 1 and replace it with a 2.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 cd ~<br>
 mkdir verylongandhardtoremberdirectoryname2<br>
 cd v[TAB] 
-</p> Here tab is shown by the arrow keys.
+</p> 
+<p>Here tab is shown by the arrow keys.</p>
 <p>The shell autocompletes the file up to the point where the two files differ.</p>
-
+![](termux4a.png)
 <p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
 
 <p>This next step uses what we have learned.</p>
 
-
+![](termux4a.png)
 
 
 <p><p style="font-family:Courier; color:white; background-color:black;">
