@@ -1,61 +1,62 @@
 ---
-title: Topic 4
+title: 'Keyboard Tricks'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
-Lorem markdownum scire deposito manumque facinus. Opprobria sic Iris vimque
-filia Thaumantea supremis solet occupat peperit, mittit, ea *ille* tamen forma:
-corpora. Quoniam adunci, sed Cragon potitus at voluere vallem Lyaeumque evehor
-quaedam dixit vocis lacrimasque mundi possum.
+<b>Auto complete</b>
+<p>This is standard on all Linux and a great time saver. <br></p>
+<p>
+    <p style="font-family:Courier; color:white; background-color:black;">
+cd ~<br>
 
-[Robustior carmine](http://www.youtube.com/watch?v=MghiBW3r65M). Uno pars simul
-exhortanturque fletu; suas inquit paulum moriensque sumpserat totiens et sive.
-Violenta stabat Dictaeaque hinc tophis rustica ora nitar tale divum, in versus
-illam lacerta domito silvas memento est. Cinyrae edidicitque moram pectora et
-quoque terrenae rubor populo peperit condebat in. Verum digestum referat cum,
-dubitat collo sine candida flores pendentia, manes.
+mkdir verylongandhardtoremberdirectoryname1
+</p>
+</p>
+<p>Now push the arrow key for UP. The last command is shown.Backspace the last character of 1 and replace it with a 2.</p>
+<p></p>
 
-## Nostrae confido
+    <p style="font-family:Courier; color:white; background-color:black;">
+cd ~<br>
 
-Nec valle **natus puerum**, ora noverat solibus pinguesque non; Pisaeae in.
-Adhuc se perque forsitan in haberent *gaudet* status portentificisque tristia
-promissaque bove est ora locum. Subit etsi, et vatibus cumque? Et pudorem sim
-fuit haec **nostras Caenis inploravere** quod; faciemque sanguis furentem
-vivere, suaque.
+mkdir verylongandhardtoremberdirectoryname2
+</p>
 
-1. In iovis trahens est
-2. Nexibus ludunt tinxit nudus adspergine fecit
-3. Si corpus miracula oculos frater
-4. Sed petunt proxima ad monitu erigitur Apollineos
-5. Hunc laceri alvum et est fons fefellimus
 
-## Pater res tandem promissi collige
 
-Erubuit quod arcanis inquit succinctis tectae frenis canendo clausas, fletus
-puellis proceres terrore in zona! Tenet quoque fortuna haud resuscitat
-maledicere hostem. Imago ne fuit levi tertius ferro calamo velle talia fallit
-gratia, Theron **aetas nolis** narrat meri in **fuga**.
+<p style="font-family:Courier; color:white; background-color:black;">
+cd v[TAB] 
+</p> Here tab is shown by the arrow keys.
+<p>The shell autocompletes the file up to the point where the two files differ.</p>
 
-    var cycleMainframe = 4;
-    bankruptcy += linuxMcaSsh(2, jquery_eps, monitor_add) - qwerty;
-    if (root - software + 4) {
-        snippet_mini_win *= ipv(dimm, protector_add, 3 + raid_matrix_smm);
-        python(95, 42);
-    } else {
-        window_soap += text_chip_screenshot;
-    }
+<p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
+<p>This next step uses what we have learned.</p>
+<p><img src="https://wonk.xyz/moodle/draftfile.php/5/user/draft/387787314/termux4a.jpg" alt="Termux4" class="img-responsive atto_image_button_text-bottom" width="405" height="119"><br></p>
+<p><br></p>
 
-## Lucis onus dolet evehor vulnera gelidos
+<p><p style="font-family:Courier; color:white; background-color:black;">
+mkdir ~/.termux
+</p></p>
 
-Nec tauri illa cui hic contenta patuit, terras in et et suum [mutet
-pater](http://www.mozilla.org/), alta, et a. Addit nec figuras terris Aeacus,
-data comites cernit, et parte. Cumarum *expresso*.
+<p>This creates a directory under the home directory.The leading . means it is a hidden directory for configuration files.</p>
 
-1. Ira deo unus ferrugine stant vulnere traharis
-2. Vulnus fratribus modo quercus longa ego dederat
-3. Versis Saturnia toros suberant
-4. Decet tollere mea te insanis inponis exarsit
+<p><p style="font-family:Courier; color:white; background-color:black;">
+nano ~/.termux/termux.properties</p>This opens up a nano editing session. Copy the new section into nano.
 
-Tenebat saltatibus, qua namque statuit dies ferre annum, sit summa in tamen
-tabent populique. Pariter iterum sunt, inscius, verum.
+
+</p>
+<p><p style="font-family:Courier; color:white; background-color:black;">
+extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
+
+</p></p>
+
+<p></p>
+<p>
+    Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
+<p></p>
+<p>
+    <p style="font-family:Courier; color:white; background-color:black;">
+cat ~/.termux/termux.properties</p> will show you the contents of the file.</p>
+<p><p style="font-family:Courier; color:white; background-color:black;">
+termux-reload-settings</p> This final step will set up your Termux to have extra keys for moving left and right.</p>
