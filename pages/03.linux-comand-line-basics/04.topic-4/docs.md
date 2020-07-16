@@ -1,5 +1,6 @@
 ---
 title: 'Keyboard Tricks'
+media_order: termux4a.png
 taxonomy:
     category:
         - docs
@@ -32,8 +33,7 @@ cd v[TAB]
 
 <p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
 <p>This next step uses what we have learned.</p>
-<p><img src="https://wonk.xyz/moodle/draftfile.php/5/user/draft/387787314/termux4a.jpg" alt="Termux4" class="img-responsive atto_image_button_text-bottom" width="405" height="119"><br></p>
-<p><br></p>
+![](termux4a.png)
 
 <p><p style="font-family:Courier; color:white; background-color:black;">
 mkdir ~/.termux
