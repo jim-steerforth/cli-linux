@@ -28,14 +28,16 @@ cd v[TAB]
 
 <p>You can also move the Termux keyboard to the left so you have the standard Android keyboard with auto-complete.</p>
 
-<p>This next step uses what we have learned.</p>
+<p>This next step uses what we have learned.
+</p>
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
 mkdir ~/.termux
 </p>
 
-<p>This creates a directory under the home directory.The leading . means it is a hidden directory for configuration files.</p>
+<p>This creates a directory under the home directory.The leading . means it is a hidden directory for configuration files.
+</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 nano ~/.termux/termux.properties</p>This opens up a nano editing session. Copy the new section into nano.
@@ -48,14 +50,18 @@ extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','D
 </p>
 
 
-<p>Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
+<p>Select CTRL-X to exit, select y when asked to save and comfirm the filename.
+</p>
 
-    <p style="font-family:Courier; color:white; background-color:black;"cat ~/.termux/termux.properties will show you the contents of the file.</p>
+<p style="font-family:Courier; color:white; background-color:black;">cat ~/.termux/termux.properties will show you the contents of the file.
+   </p>
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
-termux-reload-settings</p> 
+termux-reload-settings
+</p> 
 
-<p>This final step will set up your Termux to have extra keys for moving left and right.</p>
+<p>This final step will set up your Termux to have extra keys for moving left and right.
+</p>
 
 ![](termux4a.png)
