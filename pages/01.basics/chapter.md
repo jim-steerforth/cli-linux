@@ -7,7 +7,7 @@ child_type: docs
 
 ### Chapter 1
 
-#  Best way to install Moodle
+#  Best way?
 
 MoodleCloud, local installs, Linux - what is the best way to install Moodle?
 
