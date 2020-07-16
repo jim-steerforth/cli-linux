@@ -48,15 +48,14 @@ extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','D
 </p>
 
 
+<p>Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
 
-<p>
-    Select CTRL-X to exit, select y when asked to save and comfirm the filename.</p>
-
-    ![](termux4a.png)
     <p style="font-family:Courier; color:white; background-color:black;"cat ~/.termux/termux.properties will show you the contents of the file.</p>
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
-termux-reload-settings</p> This final step will set up your Termux to have extra keys for moving left and right.</p>
+termux-reload-settings</p> 
+
+<p>This final step will set up your Termux to have extra keys for moving left and right.</p>
 
 ![](termux4a.png)
