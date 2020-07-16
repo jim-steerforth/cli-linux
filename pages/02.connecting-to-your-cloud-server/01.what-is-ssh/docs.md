@@ -24,7 +24,7 @@ Linux runs a full desktop and is used by many as a replacement for Windows. It c
 
 For dual boot,you first partition your disk in Windows so the partition is empty.  Linux is installed and takes over the disk. You can then start your machine in Windows or Linux. This has the potential to destroy your Windows installation if done carelessly.
 
-If you have an old machine gathering dust, a full Linux install is easy. That can a useful development environment and test bed.
+If you have an old machine gathering dust, a full Linux install is easy. That can a useful development environment and test bed. A Raspberry Pi is also suitable and can happily run a local Moodle.
 
 Suitable distributions are Ubuntu and Linux Mint.
 
