@@ -18,4 +18,6 @@ title: 'MySql and PHP'
  sudo service mysql start<br>
  sudo service mysql stop<br>
  sudo service mysql status<br>
- sudo 
+ sudo service mysql restart<br>
+ </p>
+ 
