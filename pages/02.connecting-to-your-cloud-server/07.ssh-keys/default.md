@@ -5,7 +5,7 @@ title: 'SSH keys'
 <p>    
     <b>ssh</b> is a quick way to log on and access the file system of your server. From the bash shell on <a href="https://redmouse.xyz/install-lamp-on-windows-10/">WSL</a>, I would use this command.</p>
 
-<p style="font-family:Courier; color:Blue; background-color:yellow;font-size: 20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 <pre>
 $ ssh  jimmy@redmouse.xyz
 </pre>
@@ -14,7 +14,7 @@ $ ssh  jimmy@redmouse.xyz
 <p>The remote server will prompt you for the password. You can skip the password step by installing key-based SSH. ( Note:you will still be able to log on using a password on devices without a key pair).</p>
 
 
-<p style="font-family:Courier; color:Blue; background-color:yellow;font-size: 20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 <pre>
 jimmy@WSLBASH:~$ ssh-keygen -t rsa
 
@@ -25,7 +25,7 @@ Enter file in which to save the key (/home/jimmy/.ssh/id_rsa):
 </p>
 
 Enter - accept as default
-<p style="font-family:Courier; color:Blue; background-color:yellow;font-size: 20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 <pre>
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
@@ -34,7 +34,7 @@ Enter same passphrase again:
 
 Enter - leave the passphrase as blank
 
-<p style="font-family:Courier; color:Blue; background-color:yellow;font-size: 20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 <pre>
 Your identification has been saved in /home/jimmy/.ssh/id_rsa.
 Your public key has been saved in /home/jimmy/.ssh/id_rsa.pub.
