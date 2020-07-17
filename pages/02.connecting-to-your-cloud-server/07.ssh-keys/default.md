@@ -88,7 +88,7 @@ sudo nano ~/.ssh/config
 Enter these commands for user jimmy</p>
 
 
-<p style="font-family:Courier; color:white; background-color:black;">Host yourserver
+<p style="font-family:Courier; color:white; background-color:black;">
 Host vds<br>
 HostName vdsbasic.xyz<br>
 Port 22<br>
