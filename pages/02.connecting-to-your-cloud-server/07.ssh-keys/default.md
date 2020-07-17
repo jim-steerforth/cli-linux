@@ -94,9 +94,7 @@ HostName vdsbasic.xyz<br>
 Port 22<br>
 User jimmy<br>
 IdentityFile ~/.ssh/id_rsa<br>
-TCPKeepAlive no <br>
-ClientAliveInterval 30<br>
-ClientAliveCountMax 240<br>
+ServerAliveInterval 30<br>
 </p>
 <p>You can now ssh into your serve</p>
 r with
