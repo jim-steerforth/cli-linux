@@ -79,7 +79,7 @@ and check to make sure that only the key(s) you wanted were added.<br>
 Now you should be able to log in using ssh without having to enter a password. No password means you can start using other useful bash commands such as scp and rsync.</p>
 
 
-<p>You can simplify ssh login by creating a configuration file</p>
+<p>You can simplify ssh login by creating a configuration file, Remember to change host and hostname in ypur example.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo nano ~/.ssh/config
