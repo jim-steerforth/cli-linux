@@ -96,8 +96,8 @@ User jimmy<br>
 IdentityFile ~/.ssh/id_rsa<br>
 ServerAliveInterval 30<br>
 </p>
-<p>You can now ssh into your serve</p>
-r with
+<p>You can now ssh into your server with
+</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">ssh vds</p>
 
