@@ -1,5 +1,6 @@
 ---
 title: 'SSH keys'
+published: true
 ---
 
 <p>    
