@@ -4,11 +4,11 @@ published: true
 ---
 
 <p>    
-    <b>ssh</b> is a quick way to log on and access the file system of your server. From the bash shell on <a href="https://redmouse.xyz/install-lamp-on-windows-10/">WSL</a>, I would use this command.</p>
+    <b>ssh</b> is a quick way to log on and access the file system of your server. From the bash shell on <a href="https://vdsbasic.xyz/install-lamp-on-windows-10/">WSL</a>, I would use this command.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 
-$ ssh  jimmy@redmouse.xyz
+$ ssh  jimmy@vdsbasic.xyz
 
 </p>
 
