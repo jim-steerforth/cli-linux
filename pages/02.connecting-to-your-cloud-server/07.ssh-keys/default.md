@@ -6,11 +6,11 @@ published: true
 <p>    
     <b>ssh</b> is a quick way to log on and access the file system of your server. From the bash shell on <a href="https://redmouse.xyz/install-lamp-on-windows-10/">WSL</a>, I would use this command.</p>
 
-<p style="font-family:Courier; color:white; background-color:black;">
+<div style="font-family:Courier; color:white; background-color:black;">
 <pre>
 $ ssh  jimmy@redmouse.xyz
 </pre>
-</p>
+</div>
 
 <p>The remote server will prompt you for the password. You can skip the password step by installing key-based SSH. ( Note:you will still be able to log on using a password on devices without a key pair).</p>
 
