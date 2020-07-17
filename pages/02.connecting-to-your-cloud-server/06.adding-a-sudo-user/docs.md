@@ -19,9 +19,20 @@ taxonomy:
     User information prompts:<br> Changing the user information for username<br> Enter the new value, or press ENTER for the default<br> Full Name []:<br> Room Number []:<br> Work Phone []:<br> Home Phone []:<br> Other []:<br> Is the information correct?
     [Y/n] Y<br>
     <p></p>
-
-    sudo usermod -aG sudo jimmy
 </div>
+
+Run the cooamnd **sudo usermod -aG sudo jimmy**
+<div style="background-color:black;color:white;padding:20px;">
+ubuntu@vds2:~$ sudo usermod -aG sudo jimmy <br>
+ubuntu@vds2:~$ su jimmy<br>
+Password: <br>
+To run a command as administrator (user "root"), use "sudo <command>".<br>
+See "man sudo_root" for details.<br>
+
+jimmy@vds2:/home/ubuntu$ <br>
+</div>
+The command **su jimmy** segts the user to jimmy. Notice how the prompt changes. From now on we will log in as jimmy and use sudo to run  commands as administrator.
+
 <p><br>
 
 </p>
