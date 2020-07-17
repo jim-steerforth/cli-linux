@@ -1,5 +1,6 @@
 ---
 title: ' Install Apache'
+media_order: Apache.jpg
 taxonomy:
     category:
         - docs
@@ -42,7 +43,10 @@ Ports:<br>
 80,443/tcp<br>
 </p>
 
-<p>Check Apache is installed by going to your server address. The file is located at /var/www/html/index.html and provides us with start and stop instructions:</p>
+<p>Check Apache is installed by going to your server address.Mine is a vdsbasic.xyz</p>
+![](Apache.jpg)  
+    
+<p>    The file is located at /var/www/html/index.html and provides us with start and stop instructions:</p>
  
 <p>Create your own index.html file.</p>
 
