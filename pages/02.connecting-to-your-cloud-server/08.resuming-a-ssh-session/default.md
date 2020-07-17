@@ -1,5 +1,6 @@
 ---
 title: 'Resuming a SSH Session'
+published: false
 ---
 
 One of the frustration you ma have is the ssh session terminates and you need to log in again. Terminating the SSH session may also terniante the process running in the window.
