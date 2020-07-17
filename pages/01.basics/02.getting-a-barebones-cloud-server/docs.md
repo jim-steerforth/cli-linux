@@ -18,5 +18,13 @@ Select the lowest price option and deploy.
 We now have a server and we can connect to it using the ip address.
 There should also be an email sent to your address with login to your server and password.
 
+###### Your server has been successfully launched
+Details
+Login: 	ubuntu
+Password: XXXXXXXXX
+
+This login and password will be used for a SSH connection.
+
+
 
 
