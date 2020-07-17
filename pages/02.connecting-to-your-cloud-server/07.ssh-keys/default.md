@@ -61,8 +61,20 @@ Copy the public key to your server.</p>
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
-ssh-copy-id -i ~/.ssh/id_rsa.pub yourserver.com
+$ ssh-copy-id -i ~/.ssh/id_rsa.pub jimmy@vdsbasic.xyz<br>
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/grantm/.ssh/id_rsa.pub"<br>
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed<br>
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys<br>
+Please login as the user "ubuntu" rather than the user "root".<br>
+jimmy@vdsbasic.xyz's password: <br>
+<br>
+Number of key(s) added: 1<br>
+
+Now try logging into the machine, with:   "ssh 'jimmy@vdsbasic.xyz'"<br>
+and check to make sure that only the key(s) you wanted were added.<br>
+
 </p>
+
 <p>
 Now you should be able to log in using ssh without having to enter a password. No password means you can start using other useful bash commands such as scp and rsync.</p>
 
@@ -77,15 +89,19 @@ Enter these commands for user jimmy</p>
 
 
 <p style="font-family:Courier; color:white; background-color:black;">Host yourserver
-HostName yourserver.com<br>
+Host vds<br>
+HostName vdsbasic.xyz<br>
 Port 22<br>
 User jimmy<br>
-IdentityFile  ~/.ssh/id_rsa<br>
+IdentityFile ~/.ssh/id_rsa<br>
+TCPKeepAlive no <br>
+ClientAliveInterval 30<br>
+ClientAliveCountMax 240<br>
 </p>
 <p>You can now ssh into your serve</p>
 r with
 
-<p style="font-family:Courier; color:white; background-color:black;">ssh yourserver</p>
+<p style="font-family:Courier; color:white; background-color:black;">ssh vds</p>
 
 
 <p>Once you have this setup you can harden ssh by removing root login and  preventing ssh login by password. This makes a ssh brute force attack much more difficult.</p>
