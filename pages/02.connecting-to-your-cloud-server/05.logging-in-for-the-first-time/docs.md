@@ -6,12 +6,12 @@ taxonomy:
 ---
 
 Go to your welcome email and find your username and password. <br>
-<p>In Termux enter <b>ssh username@domain</b>. For example, the username sent to me was ubuntu and my domain is vdsbasic.xyz so my command is <br></p>
+<p>On Termux or WSL enter <b>ssh username@domain</b>. For example, the username sent to me was ubuntu and my domain is vdsbasic.xyz so my command is <br></p>
 <div style="background-color:black;color:white;padding:20px;">
     ssh ubuntu@vdsbasic.xyz
 </div>
 
-<p>If you get the message ssh command not found in Termux, install openssh<br></p>
+<p>If you get the message ssh command not found, install openssh<br></p>
 <p>
 </p>
 <div style="background-color:black;color:white;padding:20px;">
