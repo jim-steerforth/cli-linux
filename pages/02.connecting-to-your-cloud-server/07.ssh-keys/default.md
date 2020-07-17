@@ -102,4 +102,4 @@ ServerAliveInterval 30<br>
 <p style="font-family:Courier; color:white; background-color:black;">ssh vds</p>
 
 
-<p>This script fills in details of yout login and also prevents SSH fromdropping the connection by sending a message every 30 seconds. Once you have this setup you can harden ssh by removing root login and  preventing ssh login by password. This makes a ssh brute force attack much more difficult.</p>
+<p>This script fills in details of your login and also prevents SSH from dropping the connection by sending a message every 30 seconds. Once you have this setup you can harden ssh by removing root login and  preventing ssh login by password. This makes a ssh brute force attack much more difficult.</p>
