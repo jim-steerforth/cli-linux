@@ -31,10 +31,8 @@ See "man sudo_root" for details.<br>
 
 jimmy@vds2:/home/ubuntu$ <br>
 </div>
-The command **su jimmy** segts the user to jimmy. Notice how the prompt changes. From now on we will log in as jimmy and use sudo to run  commands as administrator.
+<p>The command **su jimmy** segts the user to jimmy. Notice how the prompt changes. From now on we will log in as jimmy and use sudo to run  commands as administrator.</p>
 
-<p><br>
 
-</p>
 <p>In Ubuntu the logging on as root is strongly discouraged. We are creating a new user (jimmy). The user ubuntu is not root so we add sudo before the command, The user jimmy is then given sudo privileges. <br></p>
-<p><b>From now on, never log in as root. Always use your new user and sudo to carry out any admin procedures.</b><br></p>
+<p><b>From now on, never log in as root. Always use your new user and sudo to carry out any admin procedures.</b></p>
