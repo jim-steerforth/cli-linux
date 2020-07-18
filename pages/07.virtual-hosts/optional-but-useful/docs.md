@@ -7,12 +7,9 @@ visible: true
 ---
 
  <p>With a virtual host setup, you can have several different domains running on the same server. For example I could have</p>
- 
-    <ul>
-    <li>vdsmoodle.xyz</li>
-      <li>vdsblog.xyz</li>
-      <li>vdstes.xyz</li>
-    </ul>
+*vdsmoodle.xyz
+*vdsblog.xyz
+*vdstes.xyz
 <p>All have ther own directory under /var/www/html and are running on our single server .Each request coming to the server is sent to one directory. </p>
 
 
