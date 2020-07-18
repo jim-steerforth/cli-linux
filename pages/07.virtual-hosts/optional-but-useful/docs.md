@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
- <p>With a virtual domain setup, you can have several different domains running on the same server. For example I could have</p>
+ <p>With a virtual host setup, you can have several different domains running on the same server. For example I could have</p>
  
     <ul>
     <li>vdsmoodle.xyz</li>
