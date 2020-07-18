@@ -13,4 +13,6 @@ visible: true
       <li>vdsblog.xyz</li>
       <li>vdstes.xyz</li>
     </ul>
-<p>All have ther own directory under /var/www/html and are running on one .Each request coming to the server is sent to one directory. </p>
+<p>All have ther own directory under /var/www/html and are running on our single server .Each request coming to the server is sent to one directory. </p>
+
+
