@@ -38,9 +38,9 @@ sudo nano /var/www/vdsbasic.xyz/moodle/index.html
 
 Set up a config file.
 
-<p style="font-family:Courier; color:white; background-color:black;">
+<div style="background-color:black;color:white;padding:20px;">
 sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
-</p>
+</div>
 
 <pre>
 &lt;VirtualHost *:80&gt;
