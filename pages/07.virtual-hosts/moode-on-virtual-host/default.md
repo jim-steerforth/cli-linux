@@ -5,7 +5,6 @@ visible: true
 
  First create a moodle subdirectory under the domain name. 
  
-
 <div style="background-color:black;color:white;padding:20px;">
 sudo mkdir /var/www/html/vdsbasic.xyz <br>
 sudo mkdir /var/www/html/vdsbasic.xyz/moodle <br>
@@ -65,7 +64,6 @@ To activate the new configuration, you need to run:
   systemctl reload apache2
   
   
-
 
 
 jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
