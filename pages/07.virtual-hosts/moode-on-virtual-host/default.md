@@ -3,7 +3,8 @@ title: 'Moodle on virtual host'
 visible: true
 ---
 
- First create a moodle subdirectory under the domain name. 
+First create a moodle subdirectory under the domain name. 
+
  
 <div style="background-color:black;color:white;padding:20px;">
 sudo mkdir /var/www/html/vdsbasic.xyz <br>
@@ -54,7 +55,9 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 
 sudo a2dissite 000-default.conf
 
-Set up thee config file.
+
+Set up the config file.
+
   
 sudo a2ensite vdsbasic.xyz.conf
 
