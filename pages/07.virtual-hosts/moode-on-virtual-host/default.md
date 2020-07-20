@@ -44,4 +44,27 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 &lt;/VirtualHost&gt;
 </pre>
   
+sudo a2ensite vdsbasic.xyz.conf
+
+jimmy@vds2:/var/www$ sudo a2ensite vdsbasic.xyz.conf
+Enabling site vdsbasic.xyz.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
   
+  
+
+
+
+jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
+Site 000-default disabled.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+
+Config test
+jimmy@vds2:/var/www$ sudo apache2ctl configtest
+Syntax OK
+
+sudo systemctl restart apache2
+
+
+
