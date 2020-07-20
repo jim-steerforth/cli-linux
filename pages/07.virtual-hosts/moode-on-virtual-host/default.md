@@ -28,4 +28,8 @@ sudo nano /var/www/vdsbasic.xyz/index.html
     &lt;/body&gt;&lt;br&gt;
 &lt;/html&gt;&lt;br&gt;
 </pre>    
+
+<p style="font-family:Courier; color:white; background-color:black;">
+sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
+</p>
   
