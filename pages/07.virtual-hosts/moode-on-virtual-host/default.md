@@ -19,13 +19,13 @@ sudo nano /var/www/vdsbasic.xyz/index.html
 
 
 <kbd>
-<html><br>
-    <head><br>
-        <title>vdsbasic.xyz placeholder</title><br>
-    </head><br>
-    <body><br>
-        <h1>Success! vdsbasic.xyz placeholder is ready!</h1><br>
-    </body><br>
-</html><br>
+/var/www/your_domain/index.html</div><pre class="code-pre "><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Welcome to <span class="highlight">Your_domain</span>!&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Success!  The <span class="highlight">your_domain</span> virtual host is working!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
 </kbd>    
   
