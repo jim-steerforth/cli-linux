@@ -18,14 +18,14 @@ sudo nano /var/www/vdsbasic.xyz/index.html
 </p>
 
 
-<kbd>
-/var/www/your_domain/index.html</div><pre class="code-pre "><code>&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;Welcome to <span class="highlight">Your_domain</span>!&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Success!  The <span class="highlight">your_domain</span> virtual host is working!&lt;/h1&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</kbd>    
+<pre>
+&lt;html&gt;&lt;br&gt;
+    &lt;head&gt;&lt;br&gt;
+        &lt;title&gt;vdsbasic.xyz Moodle placeholder&lt;/title&gt;&lt;br&gt;
+    &lt;/head&gt;&lt;br&gt;
+    &lt;body&gt;&lt;br&gt;
+        &lt;h1&gt;Success! vdsbasic.xyz Moodle placeholder is ready!&lt;/h1&gt;&lt;br&gt;
+    &lt;/body&gt;&lt;br&gt;
+&lt;/html&gt;&lt;br&gt;
+</pre>    
   
