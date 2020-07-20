@@ -4,7 +4,7 @@ visible: true
 ---
 
  <p style="font-family:Courier; color:white; background-color:black;">
- sudo mkdir /var/www/html/vdsbasic.xyz <br>
+sudo mkdir /var/www/html/vdsbasic.xyz <br>
 sudo mkdir /var/www/html/vdsbasic.xyz/moodle <br>
 </p>
 
