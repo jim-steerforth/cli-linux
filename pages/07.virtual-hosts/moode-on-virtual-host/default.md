@@ -5,23 +5,24 @@ visible: true
 
  First create a moodle subdirectory under the domain name. 
  
- [presentation="presentations/"]<p style="font-family:Courier; color:white; background-color:black;">
+
+<div style="background-color:black;color:white;padding:20px;">
 sudo mkdir /var/www/html/vdsbasic.xyz <br>
 sudo mkdir /var/www/html/vdsbasic.xyz/moodle <br>
-</p>
+</div>
 
 Change the ownership of the folder to the web user www-data and the permissions to 755
 
-<p style="font-family:Courier; color:white; background-color:black;">
+<div style="background-color:black;color:white;padding:20px;">
 sudo chown -R www-data:www-data /var/www/vdsbasic.xyz/moodle<br>
 sudo chmod -R 755 /var/www/vdsbasic.xyz/moodle<br>
-</p>
+</div>
 
 Create a test page
 
-<p style="font-family:Courier; color:white; background-color:black;">
+<div style="background-color:black;color:white;padding:20px;">
 sudo nano /var/www/vdsbasic.xyz/moodle/index.html
-</p>
+</div>
 
 
 <pre>
