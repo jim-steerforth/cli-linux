@@ -18,7 +18,7 @@ sudo nano /var/www/vdsbasic.xyz/index.html
 </p>
 
 
-<pre>
+<kbd>
 <html><br>
     <head><br>
         <title>vdsbasic.xyz placeholder</title><br>
@@ -27,5 +27,5 @@ sudo nano /var/www/vdsbasic.xyz/index.html
         <h1>Success! vdsbasic.xyz placeholder is ready!</h1><br>
     </body><br>
 </html><br>
-</pre>    
+</kbd>    
   
