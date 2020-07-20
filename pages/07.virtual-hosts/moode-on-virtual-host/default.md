@@ -14,7 +14,7 @@ sudo chmod -R 755 /var/www/vdsbasic.xyz/moodle<br>
 </p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
-sudo nano /var/www/vdsbasic.xyz/index.html
+sudo nano /var/www/vdsbasic.xyz/moodle/index.html
 </p>
 
 
@@ -32,4 +32,16 @@ sudo nano /var/www/vdsbasic.xyz/index.html
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 </p>
+
+<pre>
+&lt;VirtualHost *:80&gt;
+    ServerAdmin webmaster@vdsbasic.xyz
+    ServerName vdsbasic.xyz
+    ServerAlias www.vdsbasic.xyz/moodle
+    DocumentRoot /var/www/vdsbasic.xyz/moodle
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt;
+</pre>
+  
   
