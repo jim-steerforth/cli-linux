@@ -3,15 +3,21 @@ title: 'Moodle on virtual host'
 visible: true
 ---
 
- <p style="font-family:Courier; color:white; background-color:black;">
+ First create a moodle subdirectory under the domain name. 
+ 
+ [presentation="presentations/"]<p style="font-family:Courier; color:white; background-color:black;">
 sudo mkdir /var/www/html/vdsbasic.xyz <br>
 sudo mkdir /var/www/html/vdsbasic.xyz/moodle <br>
 </p>
+
+Change the ownership of the folder to the web user www-data and the permissions to 755
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo chown -R www-data:www-data /var/www/vdsbasic.xyz/moodle<br>
 sudo chmod -R 755 /var/www/vdsbasic.xyz/moodle<br>
 </p>
+
+Create a test page
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo nano /var/www/vdsbasic.xyz/moodle/index.html
@@ -29,6 +35,8 @@ sudo nano /var/www/vdsbasic.xyz/moodle/index.html
 &lt;/html&gt;&lt;br&gt;
 </pre>    
 
+Set up a config file.
+
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 </p>
@@ -43,6 +51,10 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 &lt;/VirtualHost&gt;
 </pre>
+
+sudo a2dissite 000-default.conf
+
+Set up thee config file.
   
 sudo a2ensite vdsbasic.xyz.conf
 
