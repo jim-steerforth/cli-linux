@@ -14,6 +14,8 @@ Press [ENTER] to continue or Ctrl-c to cancel adding it.
 
 sudo apt install python-certbot-apache
 
+
+sudo ufw allow 22/tcp
 jimmy@vds2:/var/www/moodle$ sudo ufw enable
 Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
 Firewall is active and enabled on system startup
