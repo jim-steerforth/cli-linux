@@ -33,8 +33,28 @@ sudo ufw default deny incoming
 
 sudo ufw default allow outgoing
 
+sudo ufw allow www
+
+jimmy@vds2:/var/www/moodle$ sudo ufw default allow outgoing
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+jimmy@vds2:/var/www/moodle$ sudo ufw allow www
+Rule added
+Rule added (v6)
+jimmy@vds2:/var/www/moodle$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)       
+
 /etc/apache2/sites-available/your_domain.com.conf with the ServerName directive already set appropriately.
 
 jimmy@vds2:/var/www/moodle$ sudo apache2ctl configtest
 Syntax OK
+
+
 
