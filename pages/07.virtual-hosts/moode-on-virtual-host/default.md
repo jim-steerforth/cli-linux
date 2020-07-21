@@ -42,7 +42,9 @@ sudo nano /var/www/moodle/index.html
         &lt;h1&gt;Success! Moodle placeholder is ready!&lt;/h1&gt;&lt;br&gt;
     &lt;/body&gt;&lt;br&gt;
 &lt;/html&gt;&lt;br&gt;
-</pre>    
+</pre>   
+
+Save this file and exit. 
 
 <p>Set up a config file.</p>
 
@@ -63,6 +65,7 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 &lt;/VirtualHost&gt;
 </pre></p>
 
+Save this file and exit. 
 
 <p>Apache will be using the etc/apache2/sites-available/000-default.conf file. We are replacing this file with our own. 
 </p>
@@ -93,14 +96,24 @@ To activate the new configuration, you need to run:
 
 <p>Test the configuration for errors.</p>
 
+<p style="font-family:Courier; color:white; background-color:black;">
+    sudo apache2ctl configtest
+</p>
 
-<p style="font-family:Courier; color:white; background-color:black;"><pre>
+<p><pre>
 Config test
 jimmy@vds2:/var/www$ sudo apache2ctl configtest
 Syntax OK
 </pre> </p>
 
-<p>sudo systemctl restart apache2</p>
+
+Restart Apache and go yo your server to check the page is visile.
+
+<p style="font-family:Courier; color:white; background-color:black;">
+    sudo systemctl restart apache2
+</p>
+
+
 
 
 
