@@ -21,7 +21,7 @@ title: 'MySql and PHP'
  sudo service mysql restart<br>
  </p>
  
- <p>  The next bit is very  important.</p>
+** <p>  The next bit is very  important.</p>**
 
   <p style="font-family:Courier; color:white; background-color:black;"> 
   sudo mysql_secure_installation
@@ -38,7 +38,7 @@ Check your PHP version with:<br>
 
  <p style="font-family:Courier; color:white; background-color:black;"> php -v </p>
 
-Mine returns PHP 7.2.19-0ubuntu0.18.04.1. If the command returns a version of 7.3 or higher, change the version number in the following command:<br> 
+Mine returns **PHP 7.2.19-0ubuntu0.18.04.1**. If the command returns a version of 7.3 or higher, change the version number in the following command:<br> 
     <<p style="font-family:Courier; color:white; background-color:black;"e>
 sudo apt install graphviz aspell ghostscript clamav php7.2-pspell php7.2-curl php7.2-gd php7.2-intl php7.2-mysql php7.2-xml php7.2-xmlrpc php7.2-ldap php7.2-zip php7.2-soap php7.2-mbstring
 </p>
