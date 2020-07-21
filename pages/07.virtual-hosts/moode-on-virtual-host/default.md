@@ -3,8 +3,7 @@ title: 'Moodle on virtual host'
 visible: true
 ---
 
-    
-<p>With a virtual host, a LetsEncrypt certificate can be set up to allow HTTPS connections. It protects student data,  looks more professional, and  Moodle uses <a href="https://webrtc.org/">WebRTC</a> for recording audio and video and that requires encryption. Setting up HTTPS now will save time and trouble later.</p>
+    <p>With a virtual host, a LetsEncrypt certificate can be set up to allow HTTPS connections. It protects student data,  looks more professional, and  Moodle uses <a href="https://webrtc.org/">WebRTC</a> for recording audio and video and that requires encryption. Setting up HTTPS now will save time and trouble later.</p>
 
 
 <p>First create a moodle subdirectory under the domain name. </p>
@@ -69,7 +68,12 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 </p>
 
 <p style="font-family:Courier; color:white; background-color:black;">sudo a2dissite 000-default.conf</p>
-
+<p style="font-family:Courier; color:white; background-color:black;"><pre>
+jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
+Site 000-default disabled.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+</pre> </p>
 
 <p>
 Set up the config file.</p>
@@ -87,15 +91,18 @@ To activate the new configuration, you need to run:
  </pre> </p>
 
 
-<p style="font-family:Courier; color:white; background-color:black;"><pre>
-jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
-Site 000-default disabled.
-To activate the new configuration, you need to run:
-  systemctl reload apache2
+<p>Test the configuration for errors.</p>
 
+
+<p style="font-family:Courier; color:white; background-color:black;"><pre>
 Config test
 jimmy@vds2:/var/www$ sudo apache2ctl configtest
 Syntax OK
 </pre> </p>
 
 <p>sudo systemctl restart apache2</p>
+
+
+
+
+
