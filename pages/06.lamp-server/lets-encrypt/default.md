@@ -35,6 +35,9 @@ sudo ufw default allow outgoing
 
 sudo ufw allow www
 
+sudo ufw allow 'Apache Full'
+
+
 jimmy@vds2:/var/www/moodle$ sudo ufw default allow outgoing
 Default outgoing policy changed to 'allow'
 (be sure to update your rules accordingly)
