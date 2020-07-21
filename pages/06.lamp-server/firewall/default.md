@@ -7,9 +7,9 @@ A firewall is a network security system that monitors and controls incoming and 
 We will use uf w which should already be installed.
 
 Check status
-<p style="font-family:Courier; color:white; background-color:black;">
-$ sudo ufw status
-Status: inactive
+ <p style="font-family:Courier; color:white; background-color:black;">
+$ sudo ufw status<br>
+Status: inactive<br>
    </p>
 
 **It is important to allow 22/tcp as your SSH connection needs it.**
