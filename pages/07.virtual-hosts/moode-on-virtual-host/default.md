@@ -68,7 +68,7 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 <p>Apache will be using the etc/apache2/sites-available/000-default.conf file. We are replacing this file with our own. 
 </p>
 
-<p>sudo a2dissite 000-default.conf</p>
+<p style="font-family:Courier; color:white; background-color:black;">sudo a2dissite 000-default.conf</p>
 
 
 <p>
@@ -76,7 +76,7 @@ Set up the config file.</p>
 
 
 
-<p>sudo a2ensite vdsbasic.xyz.conf</p>
+<p style="font-family:Courier; color:white; background-color:black;">sudo a2ensite vdsbasic.xyz.conf</p>
 
 
 <p><pre>
@@ -87,7 +87,7 @@ To activate the new configuration, you need to run:
  </pre> </p>
 
 
-<p><pre>
+<p style="font-family:Courier; color:white; background-color:black;"><pre>
 jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
 Site 000-default disabled.
 To activate the new configuration, you need to run:
