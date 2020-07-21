@@ -9,31 +9,31 @@ First create a moodle subdirectory under the domain name.
 
  
 <div style="background-color:black;color:white;padding:20px;">
-sudo mkdir /var/www/html/vdsbasic.xyz <br>
-sudo mkdir /var/www/html/vdsbasic.xyz/moodle <br>
+sudo mkdir /var/www/vdsbasic.xyz <br>
+sudo mkdir /var/www/moodle <br>
 </div>
 
 Change the ownership of the folder to the web user www-data and the permissions to 755
 
 <div style="background-color:black;color:white;padding:20px;">
-sudo chown -R www-data:www-data /var/www/vdsbasic.xyz/moodle<br>
-sudo chmod -R 755 /var/www/vdsbasic.xyz/moodle<br>
+sudo chown -R www-data:www-data /var/www/moodle<br>
+sudo chmod -R 755 /var/www/moodle<br>
 </div>
 
 Create a test page
 
 <div style="background-color:black;color:white;padding:20px;">
-sudo nano /var/www/vdsbasic.xyz/moodle/index.html
+sudo nano /var/www/moodle/index.html
 </div>
 
 
 <pre>
 &lt;html&gt;&lt;br&gt;
     &lt;head&gt;&lt;br&gt;
-        &lt;title&gt;vdsbasic.xyz Moodle placeholder&lt;/title&gt;&lt;br&gt;
+        &lt;title&gt; Moodle placeholder&lt;/title&gt;&lt;br&gt;
     &lt;/head&gt;&lt;br&gt;
     &lt;body&gt;&lt;br&gt;
-        &lt;h1&gt;Success! vdsbasic.xyz Moodle placeholder is ready!&lt;/h1&gt;&lt;br&gt;
+        &lt;h1&gt;Success! Moodle placeholder is ready!&lt;/h1&gt;&lt;br&gt;
     &lt;/body&gt;&lt;br&gt;
 &lt;/html&gt;&lt;br&gt;
 </pre>    
@@ -49,7 +49,7 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
     ServerAdmin webmaster@vdsbasic.xyz
     ServerName vdsbasic.xyz
     ServerAlias www.vdsbasic.xyz/moodle
-    DocumentRoot /var/www/vdsbasic.xyz/moodle
+    DocumentRoot /var/www/moodle
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 &lt;/VirtualHost&gt;
