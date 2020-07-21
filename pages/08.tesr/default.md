@@ -6,3 +6,7 @@ title: tesr
 
 
 <p>First create a moodle subdirectory under the domain name. </p>
+
+<p style="font-family:Courier; color:white; background-color:black;">
+sudo mkdir /var/www/moodle <br>
+</p>
