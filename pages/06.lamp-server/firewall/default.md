@@ -24,15 +24,17 @@ Check status again.
 
 <p style="font-family:Courier; color:white; background-color:black;">
     
-$ sudo ufw status<br>
+$ sudo ufw status
+  </p>  
+<pre>   
 Status: active<br>
-<pre>
+
 To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW       Anywhere                  
 22/tcp (v6)                ALLOW       Anywhere (v6)  
 </pre>
-</p>
+
 
 
 We are allowing only SSH. First ser up some default rules:
