@@ -46,9 +46,11 @@ Restart Apache webserver. <br>
 <p style="font-family:Courier; color:white; background-color:black;">
     sudo service apache2 restart
 </p>
-    You may see <i>Failed to enable APR_TCP_DEFER_ACCEPT </i> so run<br>
+
+<p>    You may see <i>Failed to enable APR_TCP_DEFER_ACCEPT </i> so run</p>
+    
 <p style="font-family:Courier; color:white; background-color:black;">
     sudo service apache2 status 
 </p>
-    You should see Apache2 is running<br>
+<p>    You should see Apache2 is running.</p>
  
