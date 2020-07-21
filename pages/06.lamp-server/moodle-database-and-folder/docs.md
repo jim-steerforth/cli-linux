@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-jimmy@vds2:/etc/apache2/sites-available$ sudo mysql -u root -p
+$ sudo mysql -u root -p
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
