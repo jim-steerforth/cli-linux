@@ -26,12 +26,12 @@ Check status again.
     
 $ sudo ufw status<br>
 Status: active<br>
-
+<pre>
 To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW       Anywhere                  
 22/tcp (v6)                ALLOW       Anywhere (v6)  
-
+</pre>
 </p>
 
 
