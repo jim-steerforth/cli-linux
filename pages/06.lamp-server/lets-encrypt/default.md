@@ -27,8 +27,9 @@ To                         Action      From
 22/tcp                     ALLOW       Anywhere                  
 22/tcp (v6)                ALLOW       Anywhere (v6)   
 
+sudo ufw default deny incoming
 
-
+sudo ufw default allow outgoing
 
 /etc/apache2/sites-available/your_domain.com.conf with the ServerName directive already set appropriately.
 
