@@ -9,7 +9,6 @@ First create a moodle subdirectory under the domain name.
 
  
 <div style="background-color:black;color:white;padding:20px;">
-sudo mkdir /var/www/vdsbasic.xyz <br>
 sudo mkdir /var/www/moodle <br>
 </div>
 
