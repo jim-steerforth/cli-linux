@@ -107,7 +107,7 @@ Syntax OK
 </pre> </p>
 
 
-Restart Apache and go yo your server to check the page is visile.
+Restart Apache and goto your server to check the page is visible.
 
 <p style="font-family:Courier; color:white; background-color:black;">
     sudo systemctl restart apache2
