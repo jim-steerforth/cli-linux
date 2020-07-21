@@ -13,26 +13,27 @@ Status: inactive<br>
    </p>
 
 **It is important to allow 22/tcp as your SSH connection needs it.**
-<p style="font-family:Courier; color:white; background-color:black;">$ sudo ufw allow 22/tcp
-$ sudo ufw enable
-Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
-Firewall is active and enabled on system startus</p></pre>
+<p style="font-family:Courier; color:white; background-color:black;">$ sudo ufw allow 22/tcp</p>
+$ sudo ufw enable</p>
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y</p>
+Firewall is active and enabled on system startus</p>
+
 
 
 Check status again.
 
 <p style="font-family:Courier; color:white; background-color:black;">
-    <pre>
-$ sudo ufw status
-Status: active
-
+    
+$ sudo ufw status<br>
+Status: active<br>
+<pre>
 To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW       Anywhere                  
 22/tcp (v6)                ALLOW       Anywhere (v6)  
-
 </pre>
 </p>
+
 
 We are allowing only SSH. First ser up some default rules:
 
