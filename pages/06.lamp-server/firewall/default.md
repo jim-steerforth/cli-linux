@@ -40,8 +40,7 @@ We are allowing only SSH. First ser up some default rules:
 
 
 
-<p style="font-family:Courier; color:white; background-color:black;">
-    <pre>
+<p style="font-family:Courier; color:white; background-color:black;">    <pre>
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
@@ -51,8 +50,7 @@ sudo ufw default allow outgoing
 
 Then allow www and  Apache Full which will be for our webserver.
 
-<p style="font-family:Courier; color:white; background-color:black;">
-    <pre>
+<p style="font-family:Courier; color:white; background-color:black;">    <pre>
 sudo ufw allow www
 sudo ufw allow 'Apache Full'
 </pre>
@@ -61,8 +59,7 @@ sudo ufw allow 'Apache Full'
 
 Checks status again:
 
-<p style="font-family:Courier; color:white; background-color:black;">
-    <pre>
+<p style="font-family:Courier; color:white; background-color:black;">    <pre>
 jimmy@vds2:/var/www/moodle$ sudo ufw status
 Status: active
 
