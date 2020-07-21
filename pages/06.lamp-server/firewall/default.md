@@ -13,9 +13,9 @@ Status: inactive<br>
    </p>
 
 **It is important to allow 22/tcp as your SSH connection needs it.**
-<p style="font-family:Courier; color:white; background-color:black;">$ sudo ufw allow 22/tcp</p>
-$ sudo ufw enable</p>
-Command may disrupt existing ssh connections. Proceed with operation (y|n)? y</p>
+<p style="font-family:Courier; color:white; background-color:black;">$ sudo ufw allow 22/tcp<br>
+$ sudo ufw enable<br>
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y<br>
 Firewall is active and enabled on system startus</p>
 
 
