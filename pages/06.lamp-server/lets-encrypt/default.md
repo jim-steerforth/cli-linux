@@ -14,6 +14,22 @@ Press [ENTER] to continue or Ctrl-c to cancel adding it.
 
 sudo apt install python-certbot-apache
 
+jimmy@vds2:/var/www/moodle$ sudo ufw enable
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+
+
+jimmy@vds2:/var/www/moodle$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere                  
+22/tcp (v6)                ALLOW       Anywhere (v6)   
+
+
+
+
 /etc/apache2/sites-available/your_domain.com.conf with the ServerName directive already set appropriately.
 
 jimmy@vds2:/var/www/moodle$ sudo apache2ctl configtest
