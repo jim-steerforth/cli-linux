@@ -37,31 +37,30 @@ To                         Action      From
 
 
 
-We are allowing only SSH. First ser up some default rules:
+We are allowing only SSH. First set up some default rules:
 
 
 
-<p style="font-family:Courier; color:white; background-color:black;">    <pre>
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-
-
-</pre>
+<p style="font-family:Courier; color:white; background-color:black;">   
+sudo ufw default deny incoming<br>
+sudo ufw default allow outgoing<br>
 </p>
 
 Then allow www and  Apache Full which will be for our webserver.
 
-<p style="font-family:Courier; color:white; background-color:black;">    <pre>
-sudo ufw allow www
-sudo ufw allow 'Apache Full'
-</pre>
+<p style="font-family:Courier; color:white; background-color:black;">   
+sudo ufw allow www<br>
+sudo ufw allow 'Apache Full'<br>
 </p>
 
 
 Checks status again:
 
-<p style="font-family:Courier; color:white; background-color:black;">    <pre>
+<p style="font-family:Courier; color:white; background-color:black;">   
 jimmy@vds2:/var/www/moodle$ sudo ufw status
+   </p>  
+
+<pre>
 Status: active
 
 To                         Action      From
@@ -74,5 +73,4 @@ Apache Full                ALLOW       Anywhere
 Apache Full (v6)           ALLOW       Anywhere (v6)    
 
 </pre>
-</p>
 
