@@ -1,5 +1,6 @@
 ---
 title: 'Moodle Database and Folder'
+published: true
 taxonomy:
     category:
         - docs
