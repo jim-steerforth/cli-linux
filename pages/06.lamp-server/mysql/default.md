@@ -1,5 +1,6 @@
 ---
 title: 'MySql and PHP'
+published: true
 ---
 
 <p> MySql and php  is next for an install</p>
