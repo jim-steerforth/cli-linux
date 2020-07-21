@@ -47,7 +47,7 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 &lt;VirtualHost *:80&gt;
     ServerAdmin webmaster@vdsbasic.xyz
     ServerName vdsbasic.xyz
-    ServerAlias www.vdsbasic.xyz/moodle
+    ServerAlias www.vdsbasic.xyz
     DocumentRoot /var/www/moodle
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
