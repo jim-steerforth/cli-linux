@@ -8,24 +8,25 @@ visible: true
 First create a moodle subdirectory under the domain name. 
 
  
-<p><div style="background-color:black;color:white;padding:20px;">
+
+<p style="font-family:Courier; color:white; background-color:black;">
 sudo mkdir /var/www/moodle <br>
-</div></p>
+</p>
 
 
 Change the ownership of the folder to the web user www-data and the permissions to 755
 
-<p><div style="background-color:black;color:white;padding:20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 sudo chown -R www-data:www-data /var/www/moodle<br>
 sudo chmod -R 755 /var/www/moodle<br>
-</div></p>
+</p>
 
 
 Create a test page
 
-<p><div style="background-color:black;color:white;padding:20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 sudo nano /var/www/moodle/index.html
-</div></p>
+</p>
 
  
 
@@ -42,9 +43,9 @@ sudo nano /var/www/moodle/index.html
 
 Set up a config file.
 
-<p><div style="background-color:black;color:white;padding:20px;">
+<p style="font-family:Courier; color:white; background-color:black;">
 sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
-</div></p>
+</p>
 
 
 <pre>
