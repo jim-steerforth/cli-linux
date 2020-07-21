@@ -74,11 +74,11 @@ jimmy@vds2:/var/www$ sudo a2dissite 000-default.conf
 Site 000-default disabled.
 To activate the new configuration, you need to run:
   systemctl reload apache2
-</pre> 
+
 Config test
 jimmy@vds2:/var/www$ sudo apache2ctl configtest
 Syntax OK
-
+</pre> 
 sudo systemctl restart apache2
 
 
