@@ -10,3 +10,10 @@ title: tesr
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo mkdir /var/www/moodle <br>
 </p>
+
+<p>Change the ownership of the folder to the web user www-data and the permissions to 755</p>
+
+<p style="font-family:Courier; color:white; background-color:black;">
+sudo chown -R www-data:www-data /var/www/moodle<br>
+sudo chmod -R 755 /var/www/moodle<br>
+</p>
