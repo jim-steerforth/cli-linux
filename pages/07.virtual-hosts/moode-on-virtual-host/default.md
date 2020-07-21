@@ -3,6 +3,8 @@ title: 'Moodle on virtual host'
 visible: true
 ---
 
+ With a virtual host, a LetsEncrypt certificate can be set up to allow HTTPS connections. It protects student data,  looks more professional, and  Moodle uses <a href="https://webrtc.org/">WebRTC</a> for recording audio and video and that requires encryption. Setting up HTTPS now will save time and trouble later.
+
 First create a moodle subdirectory under the domain name. 
 
  
