@@ -24,7 +24,7 @@ Create a test page
 <div style="background-color:black;color:white;padding:20px;">
 sudo nano /var/www/moodle/index.html
 </div>
-
+ 
 
 <pre>
 &lt;html&gt;&lt;br&gt;
@@ -54,13 +54,16 @@ sudo nano /etc/apache2/sites-available/vdsbasic.xyz.conf
 &lt;/VirtualHost&gt;
 </pre>
 
+Apache will be using the etc/apache2/sites-available/000-default.conf file. We are replacing this file with our own. 
+
 sudo a2dissite 000-default.conf
 
 
 Set up the config file.
 
-  
+
 sudo a2ensite vdsbasic.xyz.conf
+
 <pre>
 jimmy@vds2:/var/www$ sudo a2ensite vdsbasic.xyz.conf
 Enabling site vdsbasic.xyz.
