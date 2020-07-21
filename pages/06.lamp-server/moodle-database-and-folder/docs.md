@@ -4,6 +4,7 @@ published: true
 taxonomy:
     category:
         - docs
+visible: true
 ---
 
 $ sudo mysql -u root -p
