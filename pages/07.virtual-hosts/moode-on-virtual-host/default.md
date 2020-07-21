@@ -79,7 +79,7 @@ To activate the new configuration, you need to run:
 </pre> </p>
 
 <p>
-Set up the config file.</p>
+Enable the config file.</p>
 
 
 
@@ -113,6 +113,10 @@ Restart Apache and goto your server to check the page is visible.
     sudo systemctl restart apache2
 </p>
 
+<p>If you have other domain names, you can crearte more virtual hosts. For example, you can set up a blog with the domain:<br>
+vdsblog.xyz<br>
+Set up another folder under /var/www and use sudo a2ensite to enable the domain.
+</p>
 
 
 
