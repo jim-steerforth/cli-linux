@@ -1,8 +1,9 @@
 ---
 title: 'Install Moodle'
-published: false
+published: true
 taxonomy:
     category: docs
+visible: true
 ---
 
 ### Chapter 5
