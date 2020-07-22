@@ -7,7 +7,15 @@ taxonomy:
 visible: true
 ---
 
+<p>This section sets up the database for Moodle. This will be done on the MySql command line. The password ypu enter is the password for user root as set in securing MySql.
+</p>
+
+    
+<p style="font-family:Courier; color:white; background-color:black;">
 $ sudo mysql -u root -p
+</p>    
+    
+<pre>
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
@@ -22,13 +30,16 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> 
+ </pre>
+ 
+<p>You are now in the mysql program as shown by the mysql prompt. Copy these commands, replace 'moodledude' with a name and 'passwordformoodledude' bya suitably strong password. You will need this username and password when you install Moodle.</p>
 
+ <pre>
 CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 create user 'moodledude'@'localhost' IDENTIFIED BY 'passwordformoodledude';
 
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO moodledude@localhost IDENTIFIED BY 'passwordformoodledude';
 
-
 quit;
-    
+ </pre>
