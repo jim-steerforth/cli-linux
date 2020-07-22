@@ -27,3 +27,8 @@ sudo apt install python-certbot-apache
 
 
 
+
+
+Additional Reading
+[https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](An Introduction to Let's Encrypt)
+[https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubun](How To Secure Apache with Let's Encrypt on Ubuntu 18.04)
