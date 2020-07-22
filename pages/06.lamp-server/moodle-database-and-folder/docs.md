@@ -34,12 +34,13 @@ mysql>
  
 <p>You are now in the mysql program as shown by the mysql prompt. Copy these commands, replace 'moodledude' with a name and 'passwordformoodledude' bya suitably strong password. You will need this username and password when you install Moodle.</p>
 
- <pre>
-CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-create user 'moodledude'@'localhost' IDENTIFIED BY 'passwordformoodledude';
+<p>
+CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;<br>
 
-GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO moodledude@localhost IDENTIFIED BY 'passwordformoodledude';
+create user 'moodledude'@'localhost' IDENTIFIED BY 'passwordformoodledude';<br>
 
-quit;
- </pre>
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO moodledude@localhost IDENTIFIED BY 'passwordformoodledude';<br>
+
+quit;<br>
+</p>
