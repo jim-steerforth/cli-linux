@@ -6,14 +6,22 @@ taxonomy:
 visible: true
 ---
 
+  <body>
+
+<p>
+This shows the steps I took to secure my connection.  <b>Remember to replace vdsbasic.xyz with YOUR_DOMAIN. 
+</b></p>
+
+  
+  
 <p>Begin by adding a new repository. </p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo add-apt-repository ppa:certbot/certbot
 </p>
  
-
-   
+ 
+    
 
 <p><pre>$ sudo add-apt-repository ppa:certbot/certbot<br>
 This is the PPA for packages prepared by Debian 
@@ -75,6 +83,11 @@ This will create
 
 <p>If you go to your domain, it now redirects to https://vdsbasic.xyz/</p>
 
+<p>You can also check your Certicate score as in my example:<br/>
+https://www.ssllabs.com/ssltest/analyze.html?d=vdsbasic.xyz<br/>
+https://www.ssllabs.com/ssltest/analyze.html?d=www.vdsbasic.xyz<br/>
+I scored a B.<br/>
+</p>
 
  <pre>
 $ sudo certbot --apache -d vdsbasic.xyz -d www.vdsbasic.xyz
@@ -154,9 +167,29 @@ IMPORTANT NOTES:
 
  </pre>
  
+<p>The new available site has been auto-generated.</p>
+
+ 
+$ <p><pre>cat /etc/apache2/sites-available/vdsbasic.xyz-le-ssl.conf
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+    ServerAdmin webmaster@vdsbasic.xyz
+    ServerName vdsbasic.xyz
+    ServerAlias www.vdsbasic.xyz
+    DocumentRoot /var/www/moodle
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateFile /etc/letsencrypt/live/vdsbasic.xyz/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/vdsbasic.xyz/privkey.pem
+</VirtualHost>
+</IfModule></pre></p>
+
+
+ 
  <h3>Additional Reading</h3>
 <p><a href="(https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](An Introduction to Let's Encrypt">An Introduction to Let's Encrypt</a></p>
 
-<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04">How To Secure Apache with Let's Encrypt on Ubuntu 18.04</a></p>
-
-      
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04">How To Secure Apache with Let's Encrypt on Ubuntu 18.04</a></p>
