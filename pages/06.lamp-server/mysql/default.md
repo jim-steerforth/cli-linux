@@ -7,8 +7,9 @@ visible: true
 <p> MySql and php  is next for an install</p>
 
  
- <p style="font-family:Courier; color:white; background-color:black;">sudo apt install mysql-client mysql-server php libapache2-mod-php</p>
- 
+ <p style="font-family:Courier; color:white; background-color:black;">
+   -- sudo apt install mysql-client mysql-server php libapache2-mod-php</p>
+ sudo apt install apache2 mysql-client mysql-server php libapache2-mod-php
 <p> To start the service</p>
 
  
