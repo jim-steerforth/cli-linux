@@ -13,9 +13,14 @@ visible: true
     
 <p style="font-family:Courier; color:white; background-color:black;">
 $ sudo mysql -u root -p
-</p>    
+</p>   
+
+The first password us for the Linux sudo user, the second for the mysql root user.
+
     
 <pre>
+$ sudo mysql -u root -p 
+[sudo] password for jimmy: 
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
