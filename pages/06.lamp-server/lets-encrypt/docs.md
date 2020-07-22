@@ -32,12 +32,8 @@ Press [ENTER] to continue or Ctrl-c to cancel adding it.
 sudo apt install python-certbot-apache
 </p>
 
-<h3>Additional Reading</h3>
-<p><a href="(https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](An Introduction to Let's Encrypt">An Introduction to Let's Encrypt</a></p>
 
-<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04">How To Secure Apache with Let's Encrypt on Ubuntu 18.04</a></p>
-
-<p>The virtual host file for my server was set up here. Subsiture your domain and check the servername line.<br>
+<p>The virtual host file for my server was set up here. Subsitute your domain and check the servername line.<br>
 It should reference your domain name.
 </p>
 
@@ -62,7 +58,7 @@ sudo certbot --apache -d <i>vdsbasic.xyz</i> -d <i>www.vdsbasic.xyz</i>
  </p> 
 
 
-You should <br>
+You should 
 <ul>
   <li>Enter your email (certicates may need renewal)</li>
   <li>Agree to the Terms of Service</li>
@@ -70,6 +66,16 @@ You should <br>
   <li>Redirect HTTP traffic to HTTPS, removing HTTP access with option 2</li>
    
 </ul>
+
+This will create 
+<ul>
+  <li>a new Certificate: /etc/apache2/sites-available/vdsbasic.xyz-le-ssl.conf</li>
+  <li>a new available site: /etc/apache2/sites-available/vdsbasic.xyz-le-ssl.conf</li>
+</ul>
+
+<p>If you go to your domain, it now redirects to https://vdsbasic.xyz/</p>
+
+
  <pre>
 $ sudo certbot --apache -d vdsbasic.xyz -d www.vdsbasic.xyz
 [sudo] password for jimmy: 
@@ -147,3 +153,10 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 
  </pre>
+ 
+ <h3>Additional Reading</h3>
+<p><a href="(https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt](An Introduction to Let's Encrypt">An Introduction to Let's Encrypt</a></p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04">How To Secure Apache with Let's Encrypt on Ubuntu 18.04</a></p>
+
+      
