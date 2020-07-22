@@ -1,5 +1,6 @@
 ---
 title: 'Install Moodle'
+media_order: 'server.jpg,configphp.jpg'
 taxonomy:
     category:
         - docs
