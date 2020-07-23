@@ -98,3 +98,9 @@ Check the foldrer locatioms are
 </ul>
 <p>
 You willl neede to enter Moodle database user and password.</p>
+
+![](server.jpg)
+
+All our requirements should be met.
+
+![](configphp.jpg)
