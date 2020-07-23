@@ -7,6 +7,7 @@ taxonomy:
 visible: true
 ---
 
+    
    <p>  First step is to remove our placeholder /var/www/moodle' direectory using the interactive and recursive flags.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
@@ -76,6 +77,9 @@ sudo git checkout MOODLE_39_STABLE
 $ sudo git checkout MOODLE_39_STABLE
 Switched to branch 'MOODLE_39_STABLE'
 Your branch is up to date with 'origin/MOODLE_39_STABLE'.</pre></p>
+<p>
+Set up ownership and permissions on the directories required by Moodle.</p>
+
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo mkdir /var/moodledata <br>
@@ -85,9 +89,12 @@ sudo chmod -R 0755 /var/www/moodle <br>
 </p>
 
 
+<p>Now go to your web page and complete the install. My web address https://vdsbasic.xyz </p>
 
-
-
-Web address https://vdsbasic.xyz 
-
-Moodle directory /var/www/moodle Data directory /var/moodledata
+Check the foldrer locatioms are
+<ul>
+  <li>Moodle directory /var/www/moodle </li>
+  <li>Data directory /var/moodledata</li>
+</ul>
+<p>
+You willl neede to enter Moodle database user and password.</p>
