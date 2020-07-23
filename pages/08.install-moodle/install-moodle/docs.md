@@ -89,15 +89,15 @@ sudo chmod -R 0755 /var/www/moodle <br>
 </p>
 
 
-<p>Now go to your web page and complete the install. My web address https://vdsbasic.xyz </p>
+<p>Now go to your web page and complete the install. My web address is https://vdsbasic.xyz </p>
 
-Check the foldrer locatioms are
+Check the folder locations are
 <ul>
   <li>Moodle directory /var/www/moodle </li>
   <li>Data directory /var/moodledata</li>
 </ul>
 <p>
-You willl neede to enter Moodle database user and password.</p>
+You willl need to enter Moodle database user and password.</p>
 
 ![](server.jpg)
 
