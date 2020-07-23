@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Before you should install Moodle as student ready you must
+Before you should install a "student ready" Moodle  you must
 * Have a domain with HTTPS
 * Set up a firewall
 * Add SSH keys
