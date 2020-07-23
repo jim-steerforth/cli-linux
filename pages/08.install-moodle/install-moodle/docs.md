@@ -7,7 +7,6 @@ taxonomy:
 visible: true
 ---
 
-    
    <p>  First step is to remove our placeholder /var/www/moodle' direectory using the interactive and recursive flags.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
@@ -17,7 +16,7 @@ sudo rm -ir /var/www/moodle
 
 <p><pre>$ sudo rm -ir /var/www/moodle rm: descend into directory '/var/www/moodle'? y 
 rm: remove regular file '/var/www/moodle/index.html'? y 
-rm: remove directory '/var/www/moodle'? y<pre></p>
+rm: remove directory '/var/www/moodle'? y</pre></p>
 
 <p>
 Change to the /var/www directory</p>
@@ -84,3 +83,11 @@ sudo chown -R www-data /var/moodledata <br>
 sudo chmod -R 777 /var/moodledata <br>
 sudo chmod -R 0755 /var/www/moodle <br>
 </p>
+
+
+
+
+
+Web address https://vdsbasic.xyz 
+
+Moodle directory /var/www/moodle Data directory /var/moodledata
