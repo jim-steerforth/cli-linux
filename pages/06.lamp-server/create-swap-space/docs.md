@@ -41,6 +41,20 @@ no label, UUID=c83cd3a3-08e4-4997-ad46-6e8113528c16</pre></p>
 sudo swapon /swapfile
 </p> 
 
+
+<p>Check your new swap space.</p>
+
+ <p style="font-family:Courier; color:white; background-color:black;">
+sudo swapon --show
+</p> 
+ 
+ 
+<p><pre> 
+ $  sudo swapon --show
+NAME      TYPE  SIZE USED PRIO
+/swapfile file 1024M   0B   -2
+</pre></p>
+
 <p>Edit the available disk partition on the file systems table.</p>
 
  <p style="font-family:Courier; color:white; background-color:black;">
@@ -48,8 +62,7 @@ sudo nano /etc/fstab
 </p> 
 
 
-<p> Paste the following line at the end of the file. This will retain the swap aftera reboot.</p>
-
+<p> Paste the following line at the end of the file. This will retain the swap after a reboot.</p>
 
  <p style="font-family:Courier; color:white; background-color:black;">
 /swapfile swap swap defaults 0 0
@@ -63,9 +76,9 @@ LABEL=UEFI      /boot/efi       vfat    defaults        0 0
 </pre>
 </p>
 
-
-
-
+ 
+<h3>Additional Reading </h3>  
+    <a href="https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-18-04/">How to Add Swap Space on Ubuntu 18.04</a>
 
 
 
