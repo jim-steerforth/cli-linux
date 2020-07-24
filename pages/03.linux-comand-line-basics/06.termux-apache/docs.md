@@ -39,8 +39,11 @@ comment
 uncomment
 LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
 
-sudo apt install graphviz aspell ghostscript clamav php7.4-pspell<br> 
-php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml<br>
-php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring
+
 
 </pre>   </p>
+new
+
+sudo apt install graphviz aspell ghostscript clamav php7.4-pspell
+php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml
+php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring
