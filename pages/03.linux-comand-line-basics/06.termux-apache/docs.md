@@ -31,4 +31,6 @@ phpinfo();
 
 apachectl start
 
+localhost:8080/index.php
+
 </pre>   </p>
