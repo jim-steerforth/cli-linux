@@ -5,6 +5,8 @@ taxonomy:
         - docs
 ---
 
+  
+ 
  <p>  <pre>
    apt update
    apt upgrade 
@@ -15,11 +17,11 @@ taxonomy:
     
      
    LoadModule php7_module /data/data/com.termux/files/usr/libexec/apache2/libphp7.so
-   &lsaquo;FilesMatch \.php$&rsaquo;
+   &lt;FilesMatch \.php$&gt;
   SetHandler application/x-httpd-php
-&lsaquo;/FilesMatch&rsaquo;
+&lt;/FilesMatch&gt;
    
-&lsaquo;IfModule dir_module&rsaquo;
+&lt;IfModule dir_module&gt;
   DirectoryIndex index.php
-&lsaquo;/IfModule&rsaquo;
+&lt;/IfModule&gt;
 </pre>   </p>
