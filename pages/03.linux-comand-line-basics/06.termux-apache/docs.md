@@ -44,4 +44,6 @@ LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
 </pre>   </p>
 new
 
+apt install apache2 mysql-client mysql-server php libapache2-mod-php
+
 apt install graphviz aspell ghostscript clamav php7.2-pspell php7.2-curl php7.2-gd php7.2-intl php7.2-mysql php7.2-xml php7.2-xmlrpc php7.2-ldap php7.2-zip php7.2-soap php7.2-mbstring
