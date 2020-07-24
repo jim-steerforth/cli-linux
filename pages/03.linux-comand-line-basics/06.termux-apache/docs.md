@@ -33,4 +33,10 @@ apachectl start
 
 localhost:8080/index.php
 
+
+comment
+#LoadModule mpm_worker_module libexec/apache2/mod_mpm_worker.so
+uncomment
+LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
+
 </pre>   </p>
