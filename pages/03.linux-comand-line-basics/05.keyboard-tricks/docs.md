@@ -32,20 +32,23 @@ cd v[TAB]
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
-mkdir ~/.termux
+    
+
+cd /data/data/com.termux/fildes/home   
+mkdir ./.termux
 </p>
 
 <p>This creates a directory under the home directory.The leading . means it is a hidden directory for configuration files.
 </p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
-nano ~/.termux/termux.properties</p>This opens up a nano editing session. Copy the new section into nano.
+nano ./.termux/termux.properties</p>This opens up a nano editing session. Copy the new section into nano.
 </p>
 
 
 
 <p style="font-family:Courier; color:white; background-color:black;">
-extra-keys = [['ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
+extra-keys = [['~','ESC','/','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
 </p>
 
 
