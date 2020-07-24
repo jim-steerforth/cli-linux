@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-   <p>  <pre>
+ <p>  <pre>
    apt update
    apt upgrade 
    apt install php-apache
@@ -23,4 +23,12 @@ LoadModule php7_module /data/data/com.termux/files/usr/libexec/apache2/libphp7.s
 &lt;IfModule dir_module&gt;
   DirectoryIndex index.php
 &lt;/IfModule&gt;
+
+nano   /data/data/com.termux/files/usr/share/apache2/default-site/htdocs/index.php
+
+&lt;?php
+phpinfo();
+
+apachectl start
+
 </pre>   </p>
