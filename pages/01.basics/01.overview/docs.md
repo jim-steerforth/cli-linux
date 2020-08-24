@@ -8,7 +8,7 @@ taxonomy:
 <p>Lets look at the alternatives first.</p>
 <p><b>Moodle Cloud</b><br></p>
 <p><a href="https://moodlecloud.com/">MoodleCloud</a> is "Moodle hosting from the people that make Moodle" for "Educators, trainers or anyone who needs an online learning environment to teach a class or facilitate learning in any situation."</p>
-<p>If you haven't worked with Moodle before, start here,&nbsp; They have a&nbsp; 45 day trial and developed courses can be backed up and uploaded to a cloud server.<br></p>
+<p>If you haven't worked with Moodle before, start here. They have a 45 day trial and developed courses can be backed up and uploaded to a cloud server.<br></p>
 <p>Paid options for MoodleCloud are reasonably priced. If you aren't very technical and are not interested in running a server. Moodlecloud is best for you.<br></p>
 <p><b>A local install</b></p>
 <p>Many new Moodle user start by installing on their local machine. It is a good way to know if Moodle suits you but it has one limitation. Only those on your network can access your Moodle installation. To reach students you need an internet connected
