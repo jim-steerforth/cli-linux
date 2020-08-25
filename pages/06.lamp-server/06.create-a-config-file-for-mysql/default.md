@@ -7,10 +7,19 @@ The config file allows the database to be backed up without using a password. Mo
 <pre><code>
 nano ~/.my.cnf
 
-[mysqldump]
+[mysql]
 user = mysqluser
 password = secret
 
+[mysqldump]
+user = mysqluser
+password = secret
+</code></pre>
+
+Set the config file permissions. <br>
+
+
+<pre><code>
 chmod 600 ~/.my.cnf
     
 </code></pre>
