@@ -13,20 +13,22 @@ Site administration -> Courses -> Backups -> Automated backup setup.
 
 Set the schedule to daily, execute time can be left to default ( midnight), and specify the directory to /home/user/backup. You may have to first create this folder manually in Linux.
 
-
+<pre><code>
 cd ~
 mkdir backup
+</code></pre>
 
 
 (The command cd ~ is a shortcut to your home directory ie /home/jimmy/)
 
 Next step is a database dump. You can use the instructions from Moodle docs but there are a few problems with their instructions.
 
-
+<pre><code>
 cd /my/backup/directory
 mv moodle-database.sql.gz moodle-database-old.sql.gz
 mysqldump -h example.com -u myusername --password=mypassword -C -Q -e --create-options mydatabasename > moodle-database.sql
 gzip moodle-database.sql
+</code></pre>
 
 
 First, the password is exposed in the script, not the best for security. Second, the database backups only go back one day. Finally, the backups are stored on the same server Moodle is running on so failure on the server could wipe Moodle and the backups. I want to suggest a better way - storing up to a week of database dumps, a daily back up offsite, and a daily delete of old files. Here is how to do it.
