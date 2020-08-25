@@ -4,7 +4,6 @@ media_order: Apache.jpg
 taxonomy:
     category:
         - docs
-visible: true
 ---
 
 To install Apache, first update the system, then use apt to install Apache 2.
