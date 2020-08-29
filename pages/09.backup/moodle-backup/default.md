@@ -5,7 +5,7 @@ visible: true
 
 If you have students on your Moodle site, you have the responsibility to keep their work safe. Some time ago, while using a cheap VPS, I found my site had simply disappeared. The server was never seen again. Luckily I had course backups manually created and downloaded to my desktop. There were a couple of days old so an embarrassing situation but not critical.
 
-So how should you back up? Automatically, at least daily and with a copy stored in an offsite location. Here is how I do it:
+So how should you back up? Automatically, at least daily and  with a copy stored in an offsite location. Here is how I do it:
 
 First an automatic course back up. I set this up for around midnight, a time when mos students are finished. The backup creates a .mbz file can be used to restore a course on a different Moodle server. Set this up in:
 
