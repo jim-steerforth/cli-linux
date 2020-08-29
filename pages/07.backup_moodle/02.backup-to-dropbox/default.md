@@ -12,7 +12,7 @@ A better solution is to use somewhere in the cloud. A Dropbox account with a 2 g
 First you need a script called Dropbox-Uploader. 
 
 cd /opt<br>
-git clone https://github.com/andreafabrizi/Dropbox-Uploader.git<br>
+sudo git clone https://github.com/andreafabrizi/Dropbox-Uploader.git<br>
 cd Dropbox-Uploader<br>
 chmod +x dropbox_uploader.sh<br>
 
