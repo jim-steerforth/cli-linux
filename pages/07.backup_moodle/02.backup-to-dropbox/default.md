@@ -24,10 +24,9 @@ When you come back to the first page, find “Generated access token” and clic
 
 Run the script for the first time.
 
-/opt/Dropbox-Uploader//dropbox_uploader.sh
+/opt/Dropbox-Uploader/dropbox_uploader.sh
 
-It should ask you for the token.
-Now you can test creting folders, uploading and deleting files from the command line to Dropbox.
+It should ask you for the token. Now you can test creating folders, uploading and deleting files from the command line to Dropbox.
 
 
 
