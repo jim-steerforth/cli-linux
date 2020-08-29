@@ -1,5 +1,6 @@
 ---
 title: 'Moodle Backup'
+published: true
 visible: true
 ---
 
