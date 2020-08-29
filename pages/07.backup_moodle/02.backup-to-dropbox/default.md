@@ -7,7 +7,7 @@ You could back up your Moodle to your home computer but there are a couple of re
 * Your home computer needs to be on and connected to the internet 
 * Connections to your home run on lower grade connections.
 
-A better solution is to use somewhere in the cloud. A Dropbox account with a 10 gb limit may be all you need to have at least a couple of days of course and database backups completely independent of your hosting provider. 
+A better solution is to use somewhere in the cloud. A Dropbox account with a 2 gb limit may be all you need to have at least a couple of days of course and database backups completely independent of your hosting provider. 
 First you need a script called Dropbox-Uploader. 
 
 cd /opt
