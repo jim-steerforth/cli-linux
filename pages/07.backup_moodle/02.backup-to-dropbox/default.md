@@ -14,7 +14,7 @@ First you need a script called Dropbox-Uploader.
 cd /opt<br>
 sudo git clone https://github.com/andreafabrizi/Dropbox-Uploader.git<br>
 cd Dropbox-Uploader<br>
-chmod +x dropbox_uploader.sh<br>
+sudo chmod +x dropbox_uploader.sh<br>
 
 This adds a script to the /opt directory and makes it executable.
 Next Dropbox needs to be set up, by going to the https://www.dropbox.com/developers/apps page and clickong on the "Create Apps" page to go to the "Create a new app on the DBX Platform" page.
