@@ -6,7 +6,6 @@ taxonomy:
         - docs
 ---
 
-
 <pre>
     #!/bin/bash
 
