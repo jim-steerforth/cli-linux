@@ -34,7 +34,7 @@ It should ask you for the token. Now you can test creating folders, uploading an
 touch ~/upload1.txt
 ~/bin/Dropbox-Uploader/dropbox_uploader.sh upload ~/upload1.txt /
  > Uploading "/home/grantm/upload1.txt" to "/upload1.txt"... DONE
-grantm@ThinkPad-T420:~$ ~/bin/Dropbox-Uploader/dropbox_uploader.sh list
+ThinkPad-T420:~$ ~/bin/Dropbox-Uploader/dropbox_uploader.sh list
  > Listing "/"... DONE
  [F] 240     Get Started with Dropbox Paper.url
  [F] 1102331 Get Started with Dropbox.pdf
