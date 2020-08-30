@@ -11,12 +11,14 @@ A better solution is to use somewhere in the cloud. A Dropbox account with a 2 g
 
 First you need a script called Dropbox-Uploader. 
 
-cd /opt<br>
+
+mkdir ~/bin
+cd ~/bin
 sudo git clone https://github.com/andreafabrizi/Dropbox-Uploader.git<br>
 cd Dropbox-Uploader<br>
 sudo chmod +x dropbox_uploader.sh<br>
 
-This adds a script to the /opt directory and makes it executable.
+This adds a script to the ~/bin directory and makes it executable.
 Next Dropbox needs to be set up, by going to the https://www.dropbox.com/developers/apps page and clickong on the "Create Apps" page to go to the "Create a new app on the DBX Platform" page.
 In "Choose an API" choose "Legacy", choose "Full Dropbox" under access and give it a name (I just called it wonk) before agreeeing to the conditions and clicking the "Create an App" button.
 
@@ -24,7 +26,7 @@ When you come back to the first page,  find “Generated access token”, set Ac
 
 Come back to your own server and run the dropbox uploader script for the first time.
 
-/opt/Dropbox-Uploader/dropbox_uploader.sh
+~/bin/Dropbox-Uploader/dropbox_uploader.sh
 
 It should ask you for the token. Now you can test creating folders, uploading and deleting files from the command line to Dropbox.
 
