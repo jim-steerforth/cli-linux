@@ -6,7 +6,23 @@ taxonomy:
         - docs
 ---
 
-#!/bin/bash
+<!DOCTYPE html>
+
+<!-- Created on 30 Aug 2020, 4:14:25 pm -->
+
+<html lang="en">
+  <head>
+    <meta charset=utf-8 />
+    <title>
+      Enter a title here
+    </title>
+    <meta name="GENERATOR" content="Arachnophilia 5.5" />
+    <meta name="FORMATTER" content="Arachnophilia 5.5" />
+  </head>
+  
+  <body>
+<pre>
+    #!/bin/bash
 
 # Created on Oct 26, 2019, 8:37:00 PM
 
@@ -69,4 +85,7 @@ find $BACKUPDIR/ -type f -name '*.sql.gz' -mtime +5 -exec rm {} \;
 #rm  $OLDDATABASENAME
 #rm  $OLDCOURSEBACKUP
 
-#end Your page content goes here.
+#end 
+</pre>   
+  </body>
+</html>
