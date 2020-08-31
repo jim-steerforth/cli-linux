@@ -5,7 +5,7 @@ title: 'Kernel Patches'
 Personal users of Ubuntu can subscribe three machines (laptop, server or cloud) free of charge.  This service will apply critical kernel patches without rebooting.
 First, create an account on [UbutuOne](https://login.ubuntu.com/). Then go to [LivePatch](https://ubuntu.com/livepatch)  to get your token.
 
-The firt two lines copied from the LivePatch site install the patch. The next line shows the status of my system with the kernel automatially patched.
+The first two lines copied from the LivePatch site install the patch. The next line shows the status of my system with the kernel automatially patched.
 
 <pre>
     
