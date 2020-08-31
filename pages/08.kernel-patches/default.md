@@ -1,5 +1,6 @@
 ---
 title: 'Kernel Patches'
+published: true
 ---
 
 Personal users of Ubuntu can subscribe three machines (laptop, server or cloud) free of charge.  This service will apply critical kernel patches without rebooting. This keeps your server safe from a weakness found in the kernel,
