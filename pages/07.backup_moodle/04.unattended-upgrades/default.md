@@ -19,7 +19,7 @@ Unattended-Upgrade::Automatic-Reboot "true";
 </pre>
 Some more information is available [here](https://www.techrepublic.com/article/how-to-enable-automatic-security-updates-for-ubuntu-server/).
 
-When I logged on I was told
+When I logged on and before making thos change I was told
 65 packages can be updated.
 46 updates are security updates.
 
