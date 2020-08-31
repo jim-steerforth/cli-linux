@@ -18,3 +18,10 @@ Change the line "Unattended-Upgrade::Automatic-Reboot" by removing any leading s
 Unattended-Upgrade::Automatic-Reboot "true";
 </pre>
 Some more information is available [here](https://www.techrepublic.com/article/how-to-enable-automatic-security-updates-for-ubuntu-server/).
+
+When I logged on I was told
+65 packages can be updated.
+46 updates are security updates.
+
+The change should now keep my server up to date.
+
