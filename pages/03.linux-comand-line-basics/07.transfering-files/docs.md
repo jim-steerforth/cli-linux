@@ -12,7 +12,7 @@ scp myfolder.zip jimmy@vdsbasic.xyz:/home/jimmy/transfer
 <p>Once it is in place we can unzip it:</p>
 <code>
 unzip myfolder.zip
-<code>
+</code>
 <p>It will create a directory structure but the tree will be under ~/transfer. We need to move it while preserving the file structure. The easiest way is to use rsync with the r ( recursive function)</p>
 
 First:<br>
