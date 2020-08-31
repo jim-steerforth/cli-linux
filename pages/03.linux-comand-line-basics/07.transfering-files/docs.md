@@ -1,5 +1,6 @@
 ---
 title: 'Transfering files'
+published: true
 taxonomy:
     category:
         - docs
