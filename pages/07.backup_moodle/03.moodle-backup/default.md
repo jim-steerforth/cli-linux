@@ -34,4 +34,4 @@ gzip moodle-database.sql
 </code></pre>
 
 
-First, the password is exposed in the script, not the best for security. Second, the database backups only go back one day. Finally, the backups are stored on the same server Moodle is running on so failure on the server could wipe Moodle and the backups. I want to suggest a better way - storing up to a week of database dumps, a daily back up offsite, and a daily delete of old files. Here is how to do it.
+First, the password is exposed in the script, not the best for security. Second, the database backups only go back one day. Finally, the backups are stored on the same server Moodle is running on so failure on the server could wipe Moodle and the backups. I want to suggest a better way - storing up to a week of database dumps, a daily back up offsite, and a daily delete of old files.  <a href="https://wonk.xyz/grav/backup_moodle/backup-to-dropbox">Here is how to back up to Dropbox</a>.
