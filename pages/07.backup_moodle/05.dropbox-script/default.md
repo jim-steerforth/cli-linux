@@ -2,8 +2,8 @@
 title: 'Dropbox script'
 published: true
 taxonomy:
-    category:
-        - docs
+    category: docs
+    tag: ''
 ---
 
 <pre>
