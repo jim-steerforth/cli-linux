@@ -1,6 +1,5 @@
 ---
 title: 'Backup to Dropbox'
-media_order: DropboxBackup_sh.txt
 published: true
 ---
 
@@ -47,6 +46,7 @@ ThinkPad-T420:~$ ~/bin/Dropbox-Uploader/dropbox_uploader.sh list<br>
  [F] 1102331 Get Started with Dropbox.pdf<br>
  [F] 0       upload1.txt<br>
  
+ The script on the following page handles both database and Moodle backups. Moodle backups are automatic and secheduled through Moodle wuile the database is dumped with sqldump. Zipped files can be kept on the production server and Dropbox for a specified nunber of days.
 
 
 
