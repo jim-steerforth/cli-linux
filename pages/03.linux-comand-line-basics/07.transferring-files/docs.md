@@ -1,5 +1,5 @@
 ---
-title: 'Transfering files'
+title: 'Transferring files'
 published: true
 taxonomy:
     category:
