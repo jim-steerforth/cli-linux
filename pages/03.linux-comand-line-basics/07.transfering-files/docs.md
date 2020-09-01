@@ -18,10 +18,12 @@ unzip myfolder.zip
 
 First:<br>
 <code>
-sudo mkdir /var/www/html/myfolder
-rsync -r ~/transfer/ /var/www/html/myfolder
+sudo mkdir /var/www/html/myfolder <br>
+rsync -r ~/transfer/ /var/www/html/myfolder <br>
 </code>
 <p>The command copies all the files to the new directory.</p>
 <p>
 Becoming familiar with these commands is very useful when working in Linux. Don't worry about remembering the syntax - I often google and copy. What is important is knowing which command to use.</p>
+<p>
+The rsync command is a very useful one and can also be used to transfer folders from one computer to another. </p>
 
