@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-<p>FTP is usually the best choice for transferring files to a remote computer but sometimes for a single file or folder, scp is an alternative. Use this command to send a zipped folder from the current folder to a folder on the remote computer.</p>
+<p>FTP with a graphic user interface such as  <a href="https://filezilla-project.org/">FileZilla</a> is often the best choice for transferring files to a remote computer but sometimes for a single file or folder, scp is a good alternative. Use this command to send a zipped folder from the current folder to a folder on the remote computer.</p>
 <code>
 scp myfolder.zip jimmy@vdsbasic.xyz:/home/jimmy/transfer
 </code>
