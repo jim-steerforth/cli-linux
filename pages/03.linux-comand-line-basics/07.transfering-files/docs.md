@@ -24,7 +24,7 @@ rsync -r ~/transfer/ /var/www/html/myfolder <br>
 <p>The command copies all the files to the new directory. You could also use the move command here to preserve the file structure. rsync will leave the original files in place but move will not.</p>
 p>
 <p>
-The rsync command is a very useful one and can also be used to transfer folders from one computer to another. This [page](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) goes into detail for this command. </p>
+The rsync command is a very useful one and can also be used to transfer folders from one computer to another. This [page](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps) goes into detail for this command.  This [page](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) covers scp.</p>
 <p>
 Becoming familiar with these commands is very useful when working in Linux. Don't worry about remembering the syntax - I often google and copy. What is important is knowing which command to use.</
 
