@@ -39,7 +39,7 @@ This page describes the process of <a href="https://megatools.megous.com/man/meg
  <p>   Dropbox wih 2 gB of storage not enough? Mega offers 50 gB, more obviously but may not be as reliable as Dropbox. Nothing to stop you from using both, that is your production server, and two copies each night on separate servers.</p>
 
 <p>    Mega can sync to your home computer but this will mean downloads every night over your internet 
-</pre></code>
+
 
 <p>This produces a directory structure with the tools in the megatools subdirectory.</p>
 
@@ -57,14 +57,14 @@ This page describes the process of <a href="https://megatools.megous.com/man/meg
 cd ~/bin/megatools1.11.0
 
 First step is<br>
-megatools reg [--scripted] --register --email <email> --name <realname> --password <password>
+megatools reg [--scripted] --register --email <email> --name <realname> --password <password><br>
 
-Like this:
+Like this:<br>
 <code>
 ./megatools reg  --register --email myname@email.com --name Patrick --password mypassword
 </code>   
     
-This comes back:
+This comes back:<br>
     
 <p>
 Registration email was sent to yourname@email.com. To complete registration, you must run:<br>
@@ -92,12 +92,12 @@ Megatools need the user name and password in commands. Rather than passing it th
     nano ~/.megarc
  </code>  
     
-Add three lines.  
+Add three lines.  <br>
  
      <code> 
-[Login]
-Username = your [at] email
-Password = yourpassword
+[Login]<br>
+Username = your [at] email<br>
+Password = yourpassword<br>
   </code>    
     
 
