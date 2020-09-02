@@ -100,6 +100,12 @@ $ ./megatools ls /Root
 /Root/NewFolder/megatools-copy.html
 /Root/NewFolder/megatools-df.html
     
+$ ./megatools rm /Root/NewFolder
+$ ./megatools ls /Root 
+/Root
+    
+    So we can create folders, copy and delete.
+    
 
     
     
