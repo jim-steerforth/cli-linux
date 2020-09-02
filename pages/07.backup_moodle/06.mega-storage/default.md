@@ -41,15 +41,48 @@ This page describes the process of <a href="https://megatools.megous.com/man/meg
 
 <p>This produces a directory structure with the tools in the megatools subdirectory.</p>
 
-<p>megatools-1.11.0-git-20200503-linux-i686/<br>
-megatools-1.11.0-git-20200503-linux-i686/megatools
-</p>
-<code>
-cd megatools-1.11.0-git-20200503-linux-i686/megatools 
-</code>
+<p>megatools-1.11.0-git-20200503-linux-i686/</p>
+ 
+So move the folder to a simpler name.<br>
+ <code>
+ mv megatools-1.11.0-git-20200503-linux-i686 megatools1.11.0
+</code>                                                
+                                                
 <p>
 This page describes the process of <a href="https://megatools.megous.com/man/megatools-reg.html">Megatool Registration</a>
 </p>
+
+cd ~/bin/megatools1.11.0
+
+First step is<br>
+megatools reg [--scripted] --register --email <email> --name <realname> --password <password>
+
+Like this:
+<code>
+./megatools reg  --register --email myname@email.com --name Patrick --password mypassword
+</code>   
+    
+This comes back:
+    
+<p>
+Registration email was sent to yourname@email.com. To complete registration, you must run:<br>
+
+  megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64x90TvUY @LINK@<br>
+
+(Where @LINK@ is registration link from the 'MEGA Signup' email)<br>
+<p>
+Go to your emailand ignore the tempting Accept button. Instead copy the link starting with https and replace the @LINK@</p>
+
+<code>      
+megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64x90TvUY https://mega.nz/#confirmblahblahnlah
+</code>     
+    <p>
+        Account registered successfully!
+    </p>
+    
+    
+    
+
 
 
 
