@@ -79,10 +79,25 @@ megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64
     <p>
         Account registered successfully!
     </p>
+<p>
+Next step is to add the new directory to our path so we can call the tools from anywhere.
+</p>  
+<p>
+Megatools need the user name and password in commands. Rather than passing it through every comnand, create a config file.
+    </p>
     
+<code>
+    nano ~/.megarc
+ </code>  
     
+Add three lines.  
+ 
+     <code> 
+[Login]
+Username = your [at] email
+Password = yourpassword
+  </code>    
     
-
 
 
 
