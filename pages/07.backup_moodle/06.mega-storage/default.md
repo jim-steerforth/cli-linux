@@ -81,6 +81,32 @@ $megatools  df
 Total: 53687091200<br>
 Used:  0<br>
 Free:  53687091200<br>
+    
+$cd ~/bin/megatools1.11.0    
+$ touch newfile.txt
+$ touch newfile.txt
+$ ./megatools mkdir /Root/NewFolder
+
+
+$ ./megatools ls /Root
+/Root
+/Root/NewFolder
+    
+./megatools copy --local docs --remote /Root/NewFolder
+    
+/Root/NewFolder/.megarc
+/Root/NewFolder/docbook-xsl.css
+/Root/NewFolder/megarc.html
+/Root/NewFolder/megatools-copy.html
+/Root/NewFolder/megatools-df.html
+    
+
+    
+    
+
+
+    
+
 
     
 
