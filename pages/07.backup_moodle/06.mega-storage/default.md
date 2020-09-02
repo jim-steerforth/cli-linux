@@ -72,7 +72,7 @@ Username = your [at] email<br>
 Password = yourpassword<br>
   </code>    
     
-Now try a command<br>
+Now try a command to check free space.<br>
  <code>    
 $megatools  df
      </code> 
@@ -81,6 +81,9 @@ $megatools  df
 Total: 53687091200<br>
 Used:  0<br>
 Free:  53687091200<br>
+<p>    
+Now lets create a file, make a directory on Mega, upload the file and then delete it.
+    </p>    
     
 <code><pre>    
     
