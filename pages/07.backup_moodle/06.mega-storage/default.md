@@ -39,25 +39,25 @@ megatools reg [--scripted] --register --email <email> --name <realname> --passwo
 
 Like this:<br>
 <code>
-megatools reg  --register --email myname@email.com --name Patrick --password mypassword
+megatools reg  --register --email myname@email.com --name Jimmy --password mypassword
 </code>   
     
 This comes back:<br>
     
 <p>
 Registration email was sent to yourname@email.com. To complete registration, you must run:<br>
-
+<br>
   megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64x90TvUY @LINK@<br>
-
+<br>
 (Where @LINK@ is registration link from the 'MEGA Signup' email)<br>
 <p>
-Go to your emailand ignore the tempting Accept button. Instead copy the link starting with https and replace the @LINK@</p>
+Go to your emailand ignore the tempting "Accept" button. Instead copy the link starting with https and replace the @LINK@</p>
 
 <code>      
-megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64x90TvUY https://mega.nz/#confirmblahblahnlah
+megatools reg --verify VzwR4EHWlSszpICYHkVcgg==:04ejblahblahblahblah73AJg==:VA64x90TvUY https://mega.nz/#confirmblahblahnlah<br>
 </code>     
     <p>
-        Account registered successfully!
+        Account registered successfully! 
     </p>
     
 <p>
@@ -69,7 +69,7 @@ Megatools need the user name and password in commands. Rather than passing it th
     nano .megarc <br>
  </code>  
     
-Add three lines.  <br>
+Uncomnent (remove leding hash)  and edit the three lines.  <br>
  
      <code> 
 [Login]<br>
