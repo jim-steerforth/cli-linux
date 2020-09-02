@@ -12,7 +12,7 @@ wget    https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20
 tar xvf megatools-1.11.0-git-20200503-linux-i686.tar.gz
 </pre></code>
 
-<p>This produces a directorys structure with the tools in the magatools subdirectory.</p>
+<p>This produces a directory structure with the tools in the megatools subdirectory.</p>
 
 <p>megatools-1.11.0-git-20200503-linux-i686/<br>
 megatools-1.11.0-git-20200503-linux-i686/megatools
