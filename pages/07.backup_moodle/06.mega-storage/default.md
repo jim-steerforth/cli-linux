@@ -82,11 +82,12 @@ Total: 53687091200<br>
 Used:  0<br>
 Free:  53687091200<br>
     
-$cd ~/bin/megatools1.11.0    
+<code><pre>    
+    
+$cd ~/bin/megatools1.11.0  
 $ touch newfile.txt
 $ touch newfile.txt
 $ ./megatools mkdir /Root/NewFolder
-
 
 $ ./megatools ls /Root
 /Root
@@ -103,7 +104,7 @@ $ ./megatools ls /Root
 $ ./megatools rm /Root/NewFolder
 $ ./megatools ls /Root 
 /Root
-    
+ </pre> </code>   
     So we can create folders, copy and delete.
     
 
