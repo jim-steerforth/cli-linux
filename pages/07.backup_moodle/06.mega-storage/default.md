@@ -18,5 +18,8 @@ tar xvf megatools-1.11.0-git-20200503-linux-i686.tar.gz
 megatools-1.11.0-git-20200503-linux-i686/megatools
 </p>
 
+cd megatools-1.11.0-git-20200503-linux-i686/megatools 
+<?code>
+
 
 
