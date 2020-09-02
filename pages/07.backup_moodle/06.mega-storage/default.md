@@ -21,20 +21,25 @@ tar xvf megatools-1.11.0-git-20200503-linux-i686.tar.gz
 So move the folder to a simpler name.<br>
  <code>
  mv megatools-1.11.0-git-20200503-linux-i686 megatools1.11.0
-</code>                                                
+</code>   
+
+Next step is to create a soft link to a directory in our path. A link is a shortcut and will allow the megatools script to be called from anywhere in the file system.
+    </p>
+ <code>   
+      sudo   ln -s ~/bin/megatools1.11.0/megatools /usr/sbin/megatools<br>
+    </code>   
                                                 
 <p>
 This page describes the process of <a href="https://megatools.megous.com/man/megatools-reg.html">Megatool Registration</a>
 </p>
 
-cd ~/bin/megatools1.11.0
 
 First step is<br>
 megatools reg [--scripted] --register --email <email> --name <realname> --password <password><br>
 
 Like this:<br>
 <code>
-./megatools reg  --register --email myname@email.com --name Patrick --password mypassword
+megatools reg  --register --email myname@email.com --name Patrick --password mypassword
 </code>   
     
 This comes back:<br>
@@ -72,11 +77,7 @@ Username = your [at] email<br>
 Password = yourpassword<br>
   </code>    
 <p>    
-Next step is to create a soft link to a directory in our path. A link is a shortcut and will allow the megatools script to be called from anywhere in the file system.
-    </p>
- <code>   
-      sudo   ln -s ~/bin/megatools1.11.0/megatools /usr/sbin/megatools
-    </code>   
+
 Now try a command to check free space.<br>
  <code>    
 $megatools  df
@@ -86,16 +87,14 @@ $megatools  df
 Total: 53687091200<br>
 Used:  0<br>
 Free:  53687091200<br>
-<p>    
-Now lets create a file, make a directory on Mega, upload the file and then delete it.
-    </p>    
+  
+    
+<p>
+Now test by creating a folder on Mega,copy over the docs dirctory and delete the folder.
+    </p>
     
 <code><pre>    
-    
-$ touch newfile.txt
-$ touch newfile.txt
 $ megatools mkdir /Root/NewFolder
-
 $ megatools ls /Root
 /Root
 /Root/NewFolder
@@ -111,7 +110,8 @@ megatools copy --local docs --remote /Root/NewFolder
 $ megatools rm /Root/NewFolder
 $ megatools ls /Root 
 /Root
- </pre> </code>   
+ </pre> </code> 
+    
     So we can create folders, copy and delete.
     
 
