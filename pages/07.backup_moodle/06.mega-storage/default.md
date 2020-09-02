@@ -1,5 +1,5 @@
 ---
-title: 'Mega Storage !!Under Development!!'
+title: 'Mega Storage'
 ---
 
  <p>   Dropbox wih 2 gB of storage not enough? Mega offers 50 gB, more obviously but may not be as reliable as Dropbox. Nothing to stop you from using both, that is your production server, and two copies each night on separate servers.</p>
