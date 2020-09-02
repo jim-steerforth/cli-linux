@@ -21,7 +21,7 @@ megatools-1.11.0-git-20200503-linux-i686/megatools
 cd megatools-1.11.0-git-20200503-linux-i686/megatools 
 </code>
 <p>
-This page describes the process of <a href="https://megatools.megous.com/man/megatools-reg.html">Megstoold Registration</a>
+This page describes the process of <a href="https://megatools.megous.com/man/megatools-reg.html">Megatool Registration</a>
 </p>
 
 
