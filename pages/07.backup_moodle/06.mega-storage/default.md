@@ -10,8 +10,13 @@ You may have to adjust the version number.</p>
 cd ~/bin
 wget    https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20200503-linux-i686.tar.gz
 tar xvf megatools-1.11.0-git-20200503-linux-i686.tar.gz
-
-megatools-1.11.0-git-20200503-linux-i686/
-megatools-1.11.0-git-20200503-linux-i686/megatools
 </pre></code>
+
+<p>This produces a directorys structure with the tools in the magatools subdirectory.</p>
+
+<p>megatools-1.11.0-git-20200503-linux-i686/<br>
+megatools-1.11.0-git-20200503-linux-i686/megatools
+</p>
+
+
 
