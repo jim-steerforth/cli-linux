@@ -71,7 +71,12 @@ Add three lines.  <br>
 Username = your [at] email<br>
 Password = yourpassword<br>
   </code>    
-    
+<p>    
+Next step is to create a soft link to a directory in our path. A link is a shortcut and will allow the megatools script to be called from anywhere in the file system.
+    </p>
+ <code>   
+      sudo   ln -s ~/bin/megatools1.11.0/megatools /usr/sbin/megatools
+    </code>   
 Now try a command to check free space.<br>
  <code>    
 $megatools  df
@@ -87,16 +92,15 @@ Now lets create a file, make a directory on Mega, upload the file and then delet
     
 <code><pre>    
     
-$cd ~/bin/megatools1.11.0  
 $ touch newfile.txt
 $ touch newfile.txt
-$ ./megatools mkdir /Root/NewFolder
+$ megatools mkdir /Root/NewFolder
 
-$ ./megatools ls /Root
+$ megatools ls /Root
 /Root
 /Root/NewFolder
     
-./megatools copy --local docs --remote /Root/NewFolder
+megatools copy --local docs --remote /Root/NewFolder
     
 /Root/NewFolder/.megarc
 /Root/NewFolder/docbook-xsl.css
@@ -104,8 +108,8 @@ $ ./megatools ls /Root
 /Root/NewFolder/megatools-copy.html
 /Root/NewFolder/megatools-df.html
     
-$ ./megatools rm /Root/NewFolder
-$ ./megatools ls /Root 
+$ megatools rm /Root/NewFolder
+$ megatools ls /Root 
 /Root
  </pre> </code>   
     So we can create folders, copy and delete.
