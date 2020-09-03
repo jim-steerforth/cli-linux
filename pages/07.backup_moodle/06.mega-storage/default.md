@@ -4,9 +4,7 @@ title: 'Mega Storage'
 
  <p>   Dropbox wih 2 gB of storage not enough? </p>
     
- <p>Mega is an alternative which offers 50 gB of free storage. But there is a catch. The amount you can upload is limited and subject to change. As  August 2020 it is around 1 gB every six hours.  </p>
-    
-Nothing to stop you from using both, that is your production server, and two copies each night on separate servers.</p>
+ <p>Mega is an alternative which offers 50 gB of free storage. But there is a <a href="https://www.cloudstorageoptions.com/mega/">catch</a> . The amount you can upload is limited and subject to change. As  August 2020 it is around 1 gB every six hours. Free won't be perfect but if your backups and dumps are less than a Gig a day, Mega is an option. You coold use more than one free service, that is your production server, and two copies each night on separate servers.</p>
 <p>    Mega can sync to your home computer but this will mean downloads every night over your internet connection. Perhaps best to just use Megatools and send your updates straight from your productions server to the Mega account.</p>
 <p>The latest version will be at  <a href="https://megatools.megous.com/builds/experimental/">https://megatools.megous.com/builds/experimental/</a> <br>
 You may have to adjust the version number, at 1.11.0 at the time of writing.</p>
