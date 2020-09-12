@@ -60,7 +60,7 @@ sudo ufw allow www<br>
 sudo ufw allow 'Apache Full'<br>
 </p>
 
-
+I got a message "ERROR: Could not find a profile matching 'Apache Full'". Don't worry,Apache is installed next.
 Checks status again:
 
 <p style="font-family:Courier; color:white; background-color:black;">   
