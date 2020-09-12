@@ -8,7 +8,7 @@ visible: true
 ---
 
     
-   <p>  First step is to remove our placeholder /var/www/moodle' direectory using the interactive and recursive flags.</p>
+   <p>  First step is to remove our placeholder /var/www/moodle' directory using the interactive and recursive flags.</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
 sudo rm -ir /var/www/moodle
@@ -20,10 +20,10 @@ rm: remove regular file '/var/www/moodle/index.html'? y
 rm: remove directory '/var/www/moodle'? y</pre></p>
 
 <p>
-Change to the /var/www directory</p>
+Change to the /var/www/html directory</p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
-cd /var/www
+cd /var/www/html
 </p>
 
 
