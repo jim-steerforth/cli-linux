@@ -14,9 +14,9 @@ The remote server will prompt you for the password. You can skip the password st
 <p> Accept the default file location. </p>
 
 <p style="font-family:Courier; color:white; background-color:black;">
-jimmy@WSLBASH:~$ ssh-keygen -t rsa
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/jimmy/.ssh/id_rsa):
+jimmy@WSLBASH:~$ ssh-keygen -t rsa<br>
+Generating public/private rsa key pair.<br>
+Enter file in which to save the key (/home/jimmy/.ssh/id_rsa):<br>
 </p>  
 
 <p>Leave the passphrase as blank - just push enter</p>
