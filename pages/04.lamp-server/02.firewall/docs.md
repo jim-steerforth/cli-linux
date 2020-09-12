@@ -9,7 +9,9 @@ visible: true
 
 A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules/
 
-We will use uf w which should already be installed.
+We will use ufw which should already be installed. If not:
+sudo apt-get install ufw
+
 
 Check status
  <p style="font-family:Courier; color:white; background-color:black;">
