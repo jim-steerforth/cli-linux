@@ -3,6 +3,9 @@ title: 'Server Benchmarking'
 ---
 
 I am using the server benchmark nench available here https://github.com/n-st/nench
+This is a www.hostvhds.com server on their 79 cent a month plan,
+
+
 
 $ ./nench.sh
 -------------------------------------------------
