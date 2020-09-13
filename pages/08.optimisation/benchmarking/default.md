@@ -1,5 +1,6 @@
 ---
 title: Benchmarking
+media_order: Bencnm.png
 ---
 
 This used a Moodle plugin called Moodle Benchmarking to give an indicatioon of weaknesses in your system.
@@ -9,6 +10,14 @@ sudo chmod 777 /var/www/html/moodle/report
 Then run the benchnark plugin again and
 sudo chmod 755 /var/www/html/moodle/report
 After a few checks, upgrade your database.
+Dashboard
+Site administration
+Reports
+Benchmark
+
+![](Bencnm.png)
+
+Even on a very cheap VPS,the benchmark is respaectable.
 
 
 
