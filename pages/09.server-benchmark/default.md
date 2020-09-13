@@ -1,5 +1,5 @@
 ---
-title: 'Server Benchamarking'
+title: 'Server Benchmarking'
 ---
 
 I am using the server benchmark nench available here https://github.com/n-st/nench
