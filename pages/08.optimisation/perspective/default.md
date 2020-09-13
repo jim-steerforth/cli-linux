@@ -2,6 +2,8 @@
 title: Perspective
 ---
 
+<html>
+<body>
 Speed test<br>
 In one second you can do...<br>
 20655000 function calls<br>
@@ -14,3 +16,5 @@ In one second you can do...<br>
 1.20 seconds to delete 360 entries<br>
 Script took " . number_format($time,2) . " seconds to execute.<br>
 "; ?><br>
+ </body>   
+    </html>
