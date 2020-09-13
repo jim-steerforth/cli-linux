@@ -1,5 +1,9 @@
 ---
 title: Perspective
+published: true
+taxonomy:
+    category:
+        - docs
 ---
 
 <html>
