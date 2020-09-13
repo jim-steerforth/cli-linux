@@ -10,10 +10,10 @@ This is a www.hostvhds.com server on their 79 cent a month plan,
     <pre>
 
 $ ./nench.sh
--------------------------------------------------
+
  nench.sh v2019.07.20 -- https://git.io/nench.sh
  benchmark timestamp:    2020-09-13 03:01:43 UTC
--------------------------------------------------
+
 
 Processor:    06/55
 CPU cores:    1
@@ -53,7 +53,7 @@ IPv4 speedtests
     OVH BHS (CA):         4.17 MiB/s
 
 No IPv6 connectivity detected
--------------------------------------------------
+
 
 </pre>
 </code>
