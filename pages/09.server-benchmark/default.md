@@ -5,7 +5,8 @@ title: 'Server Benchmarking'
 I am using the server benchmark nench available here https://github.com/n-st/nench
 This is a www.hostvhds.com server on their 79 cent a month plan,
 
-
+<code>
+    <pre>
 
 $ ./nench.sh
 -------------------------------------------------
@@ -52,3 +53,6 @@ IPv4 speedtests
 
 No IPv6 connectivity detected
 -------------------------------------------------
+
+</pre>
+</code>
