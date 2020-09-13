@@ -4,7 +4,8 @@ title: 'Server Benchmarking'
 
 I am using the server benchmark nench available here https://github.com/n-st/nench
 This is a www.hostvhds.com server on their 79 cent a month plan,
-
+<html>
+    <body>
 <code>
     <pre>
 
@@ -56,3 +57,6 @@ No IPv6 connectivity detected
 
 </pre>
 </code>
+        </body>
+        </html>
+    
