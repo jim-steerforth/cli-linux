@@ -1,5 +1,6 @@
 ---
 title: 'Apache Tuning'
+published: true
 taxonomy:
     category:
         - docs
