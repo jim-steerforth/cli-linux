@@ -35,7 +35,7 @@ taxonomy:
 ![](jmeter2.png)
 <p>Right click the Test Plan at the top of the tree, select Add  and then Listener. Choose the top three  of View Results Tree, Summary Report and Aggregate Report.</p>![](Jmeter3.png)
 
-<p> This is the results ofa  test run on a small Moodle test course on the Hostvds,com loq end server as describe dxin server benchmarks. There wasw no config changes and no optimisation at this point, Run took 19:04.
+<p> This is the results ofa  test run on a small Moodle test course on the Hostvds,com loq end server as described in server benchmarks. There wasw no config changes and no optimisation at this point, Run took 19:04.
     
    </p>
     
