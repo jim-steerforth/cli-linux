@@ -23,4 +23,9 @@ taxonomy:
 
  
  <p>You should get two files to download, mine were called testplan_202009150449_6377.jmx and users_202009150449_9289.csv. Copy both to a machine runinng a GUI because jMeter will be run in GUI mode.</p>
-e.
+ 
+<p>To install Jmeter go to <a href="http://jmeter.apache.org/download_jmeter.cgi">this downlaod page</a>. On my Linux machine I also had to install beanshell with:</p>
+
+<tt>sudo apt-get install bsh</tt>
+ 
+ 
