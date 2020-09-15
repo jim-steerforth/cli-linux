@@ -33,7 +33,8 @@ taxonomy:
 
 <p>With the test plan loaded, go to the warmup site and Default Site Request set the protocol<p>Open JMeter and open your jmx file.</p>on the web server to http and the server name or IP to the websire address. Under CSV users data, set the filename to your CSV file.  </p>
 ![](jmeter2.png)
-<p>Right click the Test Plan at the top of the tree, select Add  and then Listener. Choose the top three  of View Results Tree, Summary Report and Aggregate Report.</p>![](Jmeter3.png)
+<p>Right click the Test Plan at the top of the tree, select Add  and then Listener. Choose the top three  of View Results Tree, Summary Report and Aggregate Report.</p>
+![](Jmeter3.png)
 
 <p> This is the results ofa  test run on a small Moodle test course on the Hostvds,com loq end server as described in server benchmarks. There wasw no config changes and no optimisation at this point, Run took 19:04.
     
