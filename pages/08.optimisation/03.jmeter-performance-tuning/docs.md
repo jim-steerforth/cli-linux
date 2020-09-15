@@ -1,5 +1,6 @@
 ---
 title: ' JMeter Performance Tuning'
+media_order: 'Jmeter1.png,jmeter2.png'
 taxonomy:
     category:
         - docs
@@ -27,5 +28,14 @@ taxonomy:
 <p>To install Jmeter go to <a href="http://jmeter.apache.org/download_jmeter.cgi">this downlaod page</a>. On my Linux machine I also had to install beanshell with:</p>
 
 <tt>sudo apt-get install bsh</tt>
+<p>Open JMeter and open your jmx file.</p>
+![](Jmeter1.png)
+
+<p>With the test plan loaded, go to the warmup site and Default Site Request set the protocol<p>Open JMeter and open your jmx file.</p>on the web server to http and the server name or IP to the websire address. Under CSV users data, set the filename to your CSV file.  </p>
+![](jmeter2.png)
+
+
+
+
  
  
