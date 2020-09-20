@@ -1,5 +1,6 @@
 ---
 title: 'Performance Scripts'
+published: true
 taxonomy:
     category:
         - docs
