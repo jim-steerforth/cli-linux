@@ -7,8 +7,8 @@ taxonomy:
 ---
 
 <p> 
-To run the Performance Tuning Scripts start with a clean install of a LAMP stack. The XS test will run on 1 CPU and 1gB of RAM with 
-a 1gB swap file but you will need more grunt for a S or M test. I used the DigitalOCcean marketplace to 
+To run the Performance Tuning Scripts start with a clean install of a LAMP stack. The XS test will run on 1 CPU and 1 GB of RAM with 
+a 1 GB swap file but you will need more grunt for a S or M test. I used the DigitalOCcean marketplace to 
 load a fresh LAMP. Don't install Moodle.</p>
 <p> I haven't worried too much about security here as this is a Droplet I am setting up and deleting within days.</p>
 
@@ -102,3 +102,39 @@ cp webserver_config.properties.dist webserver_config.properties
 cp jmeter_config.properties.dist jmeter_config.properties
 </pre>
 </tt>
+
+Now edit the config files. If you have followed these directions for the webserver_config.properties use 
+<tt>
+<pre>
+sudo nano webserver_config.properties
+
+dbtype="mysqli"
+dbhost="localhost"
+dbuser="mpc"
+dbpass="password"
+wwwroot="http://(your ip address)/moodle-performance-comparison/moodle"
+dataroot="/var/moodledata"
+backupsdir="/home/jimmy/backup"
+</pre>
+</tt>
+
+<tt>
+<pre>
+sudo nano jmeter_config.properties
+
+jmeter_path=/opt/apache-jmeter-5.3
+</pre>
+</tt>
+
+Now you are ready to run the scripts. The before script takes a single parameter, Always start with XS, Anything larger fails on a basic droplet. This 
+script will run slowly as it uses git to download Moodle, installs Moodle and create courses. After the download there will be a Moodle subdirectroty 
+which will hold some additional files - testplan.jmx, users.csv and siteproperties.config.<br>
+
+<tt>
+<pre>
+cd /var/www/moodle-performance-comparison
+sudo ./before_run_setup.sh XS
+<tt>
+<pre>
+
+
