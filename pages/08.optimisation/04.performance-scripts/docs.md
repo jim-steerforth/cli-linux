@@ -1,5 +1,5 @@
 ---
-title: 'Performance Scripts'
+title: 'oPerformance Scripts'
 published: true
 taxonomy:
     category:
@@ -126,9 +126,7 @@ jmeter_path=/opt/apache-jmeter-5.3
 </pre>
 </tt>
 
-Now you are ready to run the scripts. The before script takes a single parameter, Always start with XS, Anything larger fails on a basic droplet. This 
-script will run slowly as it uses git to download Moodle, installs Moodle and create courses. After the download there will be a Moodle subdirectroty 
-which will hold some additional files - testplan.jmx, users.csv and siteproperties.config.<br>
+Now you are ready to run the scripts. The before script takes a single parameter, Always start with XS, Anything larger fails on a basic droplet. This will run slowly as it uses git to download Moodle, installs Moodle and create courses. After the download there will be a Moodle subdirectory which will hold some additional files - testplan.jmx, users.csv and siteproperties.config.<br>
 
 <tt>
 <pre>
