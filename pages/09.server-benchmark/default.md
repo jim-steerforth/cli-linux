@@ -2,8 +2,10 @@
 title: 'Server Benchmarking'
 ---
 
-I am using the server benchmark nench available here https://github.com/n-st/nench
-The first is a www.hostvhds.com server on their 79 cent a month plan on Ubuntu, the second on alibaba.com running Aliyun, a derivative of Centos, the third a DigitalOcean Droplet.
+<p>I am using the server benchmark nench available here https://github.com/n-st/nench
+The first is a www.hostvhds.com server on Ubuntu, the second on alibaba.com running Aliyun, a derivative of Centos, the third a DigitalOcean Droplet again in Ubuntu.</p>
+<p>Not much difference in performance between them. The Alibaba is a free one year trial, the hostvds is 79c a month and the Droplet is $5 a month. </p>
+
 <html>
     <body>
         
@@ -109,7 +111,7 @@ No IPv6 connectivity detected
 
 </pre>
 </code>
-        <h2>Alibaba.com  </h3> 
+        <h2>DigitalOcean.com  </h3> 
 <code>
     <pre>
  $ (curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
