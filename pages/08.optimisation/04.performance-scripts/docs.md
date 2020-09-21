@@ -10,7 +10,7 @@ taxonomy:
 To run the Performance Tuning Scripts start with a clean install of a LAMP stack. The XS test will run on 1 CPU and 1 GB of RAM with 
 a 1 GB swap file but you will need more grunt for a S or M test. I used the DigitalOCcean marketplace to 
 load a fresh LAMP. Don't install Moodle.</p>
-<p> I haven't worried too much about security here as this is a Droplet I am setting up and deleting within days.</p>
+
 
 First a sudo user.<br>
 <tt>
@@ -166,3 +166,10 @@ sudo ./test_runner.sh Group1 Run2
 </tt>
 
 <p> Now navigate to the wwwroot http://(your ip)/moodle-performance-comparison and you should see a graphical represntation of your runs.  http://(your ip)/moodle-performance-comparison/moodle will be your test site. </p>
+
+Now you can run after_run,sh and experiment with adding more resourcdes before running <br>
+<tt>
+<pre>
+sudo ./before_run_setup.sh S
+</pre>
+</tt>
