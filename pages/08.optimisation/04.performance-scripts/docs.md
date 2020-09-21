@@ -12,6 +12,16 @@ a 1 GB swap file but you will need more grunt for a S or M test. I used the Digi
 load a fresh LAMP. Don't install Moodle.</p>
 <p> I haven't worried too much about security here as this is a Droplet I am setting up and deleting within days.</p>
 
+First a sudo user.<br>
+<tt>
+<pre>
+sudo adduser jimmy
+sudo usermod -aG sudo jimmy
+su jimmy
+</pre>
+</tt>
+
+
 Swap File first. Simple rule is same amount as your RAM.<br>
 <tt>
 <pre>
