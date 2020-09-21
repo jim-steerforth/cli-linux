@@ -1,5 +1,6 @@
 ---
 title: 'Performance Scripts'
+media_order: pc.png
 published: true
 taxonomy:
     category:
@@ -167,9 +168,13 @@ sudo ./test_runner.sh Group1 Run2
 
 <p> Now navigate to the wwwroot http://(your ip)/moodle-performance-comparison and you should see a graphical represntation of your runs.  http://(your ip)/moodle-performance-comparison/moodle will be your test site. </p>
 
-Now you can run after_run,sh and experiment with adding more resourcdes before running <br>
+Now you can run experiment with adding more resourcdes before running <br>
 <tt>
 <pre>
+sudo after_run.sh
 sudo ./before_run_setup.sh S
 </pre>
 </tt>
+
+The graphs produced look like this: <br>
+![](pc.png)
