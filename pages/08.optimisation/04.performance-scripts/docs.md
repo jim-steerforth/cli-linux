@@ -98,8 +98,8 @@ Now install Moodle Performance Scripts.<br>
 cd /var/www
 sudo git clone git://github.com/moodlehq/moodle-performance-comparison.git moodle-performance-comparison
 cd moodle-performance-comparison
-cp webserver_config.properties.dist webserver_config.properties
-cp jmeter_config.properties.dist jmeter_config.properties
+sudo cp webserver_config.properties.dist webserver_config.properties
+sudo cp jmeter_config.properties.dist jmeter_config.properties
 </pre>
 </tt>
 
@@ -142,7 +142,7 @@ Once that is finsished, run restart_services.sh and test_runner.sh. The restart_
 <tt>
 <pre>
 sudo ./restart_services.sh
-sudo ./restart_services.sh Group1 Run1
+sudo ./test_runner.sh Group1 Run1
 </pre>
 </tt>
 
@@ -151,8 +151,8 @@ To run the next test, run after_run_setup.sh
 <tt>
 <pre>
 sudo ./after_run_setup.sh
-sudo ./restart_services.sh Group1 Run2
+sudo ./test_runner.sh Group1 Run2
 </pre>
 </tt>
 
-<p> Now navigate to the wwwroot (http://(your ip)/moodle-performance-comparison/moodle and you should see a graphical represntation of your runs.</p>
+<p> Now navigate to the wwwroot http://(your ip)/moodle-performance-comparison and you should see a graphical represntation of your runs.  http://(your ip)/moodle-performance-comparison/moodle will be your test site. </p>
