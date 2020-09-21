@@ -6,6 +6,7 @@ taxonomy:
         - docs
 ---
 
+
 <p> 
 To run the Performance Tuning Scripts start with a clean install of a LAMP stack. The XS test will run on 1 CPU and 1 GB of RAM with 
 a 1 GB swap file but you will need more grunt for a S or M test. I used the DigitalOCcean marketplace to 
@@ -126,13 +127,33 @@ jmeter_path=/opt/apache-jmeter-5.3
 </pre>
 </tt>
 
-Now you are ready to run the scripts. The before script takes a single parameter, Always start with XS, Anything larger fails on a basic droplet. This will run slowly as it uses git to download Moodle, installs Moodle and create courses. After the download there will be a Moodle subdirectory which will hold some additional files - testplan.jmx, users.csv and siteproperties.config.<br>
+Now you are ready to run the scripts. The before script takes a single parameter, Always start with XS, Anything larger fails on a basic droplet. This 
+script will run slowly as it uses git to download Moodle, installs Moodle and create courses. After the download there will be a Moodle subdirectroty 
+which will hold some additional files - testplan.jmx, users.csv and siteproperties.config.<br>
+
 
 <tt>
 <pre>
 cd /var/www/moodle-performance-comparison
 sudo ./before_run_setup.sh XS
+</pre>
+</tt>
+Once that is finsished, run restart_services.sh and test_runner.sh. The restart_services script takes no parameters,the
+ test_runner.sh takes a rungroup and run label. .
 <tt>
 <pre>
+sudo ./restart_services.sh
+sudo ./restart_services.sh Group1 Run1
+</pre>
+</tt>
 
 
+To run the next test, run after_run_setup.sh
+<tt>
+<pre>
+sudo ./after_run_setup.sh
+sudo ./restart_services.sh Group1 Run2
+</pre>
+</tt>
+
+<p> Now navigate to the wwwroot (http://(your ip)/moodle-performance-comparison/moodle and you should see a graphical represntation of your runs.</p>
