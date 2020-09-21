@@ -1,11 +1,10 @@
 ---
-title: 'oPerformance Scripts'
+title: 'Performance Scripts'
 published: true
 taxonomy:
     category:
         - docs
 ---
-
 
 <p> 
 To run the Performance Tuning Scripts start with a clean install of a LAMP stack. The XS test will run on 1 CPU and 1 GB of RAM with 
