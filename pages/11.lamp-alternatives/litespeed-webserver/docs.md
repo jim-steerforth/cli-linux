@@ -1,6 +1,7 @@
 ---
 title: 'LiteSpeed Webserver'
 media_order: 'screenlite1.png,screenlite2.png,litespeed3.png,litespeed4.png'
+published: true
 taxonomy:
     category:
         - docs
