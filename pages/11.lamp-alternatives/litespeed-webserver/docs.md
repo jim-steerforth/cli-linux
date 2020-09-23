@@ -1,5 +1,6 @@
 ---
 title: 'LiteSpeed Webserver'
+media_order: 'screenlite1.png,screenlite2.png,litespeed3.png,litespeed4.png'
 taxonomy:
     category:
         - docs
@@ -26,7 +27,7 @@ Then enable php support - you will need to check the php version on your server.
 sudo ln -sf /usr/local/lsws/lsphp74/bin/lsphp /usr/local/lsws/fcgi-bin/lsphp5
 
 
-Contril the server
+Contr0l the server
 sudo /usr/local/lsws/bin/lswsctrl start
 sudo /usr/local/lsws/bin/lswsctrl restart
 sudo /usr/local/lsws/bin/lswsctrl stop
@@ -39,8 +40,13 @@ sudo ./admpass.sh
  
 Then go to the Litespeed control Panel:
 htttp://yourserver:7080
+![](screenlite1.png)
 Find the listener on the left hand tree and chne the default listener from 8080to port 80 (http) or 443 (https). Your webpage should open at yous server address.
-
+![](screenlite2.png)
+You can go to your basic page.
+![](litespeed3.png)
+You can check the PHP setup.
+![](litespeed4.png
 
 
 
