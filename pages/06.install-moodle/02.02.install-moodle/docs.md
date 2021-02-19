@@ -105,5 +105,4 @@ All our requirements should be met.
 
 ![](configphp.jpg)
 
-I am still looking at mail setup and this looks promising 
-[Yandex](https://ukit.com/help/how-do-i-set-up-a-domain-based-email-address-with-yandex)
+I am still looking at mail setup and this looks promising  at [Yandex](https://ukit.com/help/how-do-i-set-up-a-domain-based-email-address-with-yandex)
