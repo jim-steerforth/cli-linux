@@ -104,3 +104,5 @@ You willl need to enter Moodle database user and password.</p>
 All our requirements should be met.
 
 ![](configphp.jpg)
+
+I am still looking at mail setup and this looks promising [https://ukit.com/help/how-do-i-set-up-a-domain-based-email-address-with-yandex](Yandex Domain Mail)
