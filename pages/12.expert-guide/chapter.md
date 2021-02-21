@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-### Chapter Number
+### Chapter 12
 
 # Expert Guide
 
