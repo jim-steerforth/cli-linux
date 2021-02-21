@@ -8,4 +8,4 @@ taxonomy:
 
 # LAMP Alternatives
 
-The LAMP stack is well documented but there are alterntives.
+The LAMP stack is well documented but there are alternatives.
