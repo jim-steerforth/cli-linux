@@ -2,11 +2,12 @@
 title: 'Initial Setup'
 ---
 
-
 #### Create a sudo user
-sudo adduser jimmy 
-sudo usermod -aG sudo jimmy 
-su jimmy
+sudo adduser jimmy  
+
+sudo usermod -aG sudo jimmy  
+
+su jimmy  
 
 #### Update packages
 sudo apt update 
