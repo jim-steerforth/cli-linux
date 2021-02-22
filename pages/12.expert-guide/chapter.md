@@ -8,4 +8,4 @@ taxonomy:
 
 # Expert Guide
 
-Already know how to set up LAMP and jist want a list of commands with minimal explanation. This is for you.
+Already know how to set up LAMP and just want a list of commands with minimal explanation. This is for you.
