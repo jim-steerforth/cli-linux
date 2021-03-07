@@ -1,12 +1,18 @@
 ---
 title: 'Initial Setup'
 published: true
+taxonomy:
+    category:
+        - docs
 ---
 
 #### Create a sudo user 
 sudo adduser jimmy  
 sudo usermod -aG sudo jimmy  
 su jimmy  
+
+<a href="#sudo"> Why create a <code>sudo</code> user?</a>
+
 [Why create a sudo user?] <a id="#sudo1"></a>
 
 #### Update packages
