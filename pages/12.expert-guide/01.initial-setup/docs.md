@@ -10,10 +10,10 @@ taxonomy:
 sudo adduser jimmy  
 sudo usermod -aG sudo jimmy  
 su jimmy  
+ <p id="sudo">Paragraph name</p>
 
-<a href="#sudo"> Why create a <code>sudo</code> user?</a>
-
-[Why create a sudo user?] <a id="#sudo1"></a>
+<a href="#what_is_sudo"> Why create a <code>sudo</code> user?</a>
+<a href="#anchor-name">Jump to the part of the page with the “anchor-name” id </a>
 
 #### Update packages
 sudo apt update 
@@ -82,3 +82,5 @@ sudo chmod -R 0755 /var/www/moodle
 
 ## What is sudo user? <a id="sudo"></a>
 Safer than user root.
+
+anchor-name
