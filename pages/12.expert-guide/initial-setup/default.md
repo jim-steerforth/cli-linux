@@ -73,5 +73,5 @@ sudo chown -R www-data /var/moodledata
 sudo chmod -R 777 /var/moodledata
 sudo chmod -R 0755 /var/www/moodle 
 
-#### What is sudo user? <a id="sudo"></a>
+## What is sudo user? <a id="sudo"></a>
 Safer than user root.
