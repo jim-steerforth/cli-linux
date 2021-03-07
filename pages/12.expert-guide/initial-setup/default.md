@@ -1,5 +1,6 @@
 ---
 title: 'Initial Setup'
+published: true
 ---
 
 #### Create a sudo user 
