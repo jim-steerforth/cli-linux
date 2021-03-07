@@ -2,12 +2,11 @@
 title: 'Initial Setup'
 ---
 
-#### Create a sudo user
+#### Create a sudo user 
 sudo adduser jimmy  
-
 sudo usermod -aG sudo jimmy  
-
 su jimmy  
+[Why create a sudo user?] <a id="#sudo1"></a>
 
 #### Update packages
 sudo apt update 
@@ -25,12 +24,16 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt install python-certbot-apache 
 sudo certbot --apache -d mysite.com -d www.mysite.com
 
+#### Install apache and set up the firewall
 sudo apt install apache2
 sudo ufw allow 22/tcp
 sudo ufw enable
 
+
 sudo apt install mysql-client mysql-server php libapache2-mod-php
 sudo service mysql start
+
+
 sudo mysql_secure_installation 
 sudo mysql -u root -p 
 CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -70,4 +73,4 @@ sudo chown -R www-data /var/moodledata
 sudo chmod -R 777 /var/moodledata
 sudo chmod -R 0755 /var/www/moodle 
 
-
+## What is sudo user? <a id="sudo"></a>
